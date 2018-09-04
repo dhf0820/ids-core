@@ -1,0 +1,28 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: dispatcher
+  labels:
+    app: dispatcher
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dispatcher
+  template:
+    metadata:
+      labels:
+        app: dispatcher
+    spec:
+      containers:
+      - name: dispatcher
+        image: dhf0820/dispatcher:0.8.0
+
+        env:
+        - name: SERVICE
+          value: 'manager'
+        - name: CUSTOMER
+          value: 'ids'
+      imagePullSecrets:
+      - name: regcred

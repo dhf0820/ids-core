@@ -1,0 +1,4 @@
+
+class DispatchFailure < StandardError
+
+end

@@ -1,0 +1,17 @@
+version: '3.2'
+services:
+  server:
+    build: .
+    environment:
+      - MONGO_ENV=atlas_dev
+      - IDS_ATLAS_DEV_URI="mongodb://ids_user:AhUMadl0nPXSITp9@1ids-dev0-shard-00-00-owaps.mongodb.net:27017,ids-dev0-shard-00-01-owaps.mongodb.net:27017,ids-dev0-shard-00-02-owaps.mongodb.net:27017/ids_dev?ssl=true&replicaSet=IDS-dev0-shard-0&authSource=admin"
+      - CUSTOMER=cutter
+      - SERVICE=delivery-manager
+    #command: bundle exec rackup -p 3000
+#    env_file:
+#      - '.env'
+#    ports:
+#      - "4567:4567"
+
+
+

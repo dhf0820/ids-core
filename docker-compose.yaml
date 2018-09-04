@@ -1,0 +1,15 @@
+version: '3.2'
+services:
+  server:
+    build: .
+    environment:
+      - CUSTOMER=cutter
+      - SERVICE=delivery-manager
+    #command: bundle exec rackup -p 3000
+#    env_file:
+#      - '.env'
+#    ports:
+#      - "4567:4567"
+
+
+
