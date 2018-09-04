@@ -7,6 +7,7 @@ require 'colorize'
 require 'yaml'
 require 'bunny'
 
+require './lib/mongo_connection'
 
 # require './models/patient.rb'
 # require './models/clinical_document.rb'

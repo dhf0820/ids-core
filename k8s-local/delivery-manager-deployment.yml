@@ -1,0 +1,35 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: delivery-manager
+  labels:
+    app: delivery-manager
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: delivery-manager
+  template:
+    metadata:
+      labels:
+        app: delivery-manager
+    spec:
+      containers:
+      - name: delivery-manager
+        image: dhf0820/delivery-manager
+
+        env:
+        - name: SERVICE
+          value: 'delivery_manager'
+        - name: CUSTOMER
+          value: 'cutter'
+        - name: MONGO_ENV
+          value: :atlas_dev
+        - name: IDS_ATLAS_DEV_URI
+          valueFrom:
+            secretKeyRef:
+              name: dev-mongo-uri
+              key: IDS_ATLAS_DEV_URI
+      imagePullSecrets:
+      - name: regcred

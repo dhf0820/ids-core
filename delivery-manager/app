@@ -4,6 +4,7 @@
 
 
 require './lib/mongo_connection'
+
 require './models/patient.rb'
 require './models/updateable'
 require './models/clinical_document.rb'

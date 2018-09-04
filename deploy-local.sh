@@ -12,5 +12,5 @@ docker tag dhf0820/delivery-manager:latest  dhf0820/delivery-manager:$SHA
 docker push dhf0820/delivery-manager:$SHA
 
 
-kubectl apply -f deploy-local
+kubectl apply -f k8s-local
 kubectl set image deployments/delivery-manager delivery-manager=dhf0820/delivery-manager:$SHA
