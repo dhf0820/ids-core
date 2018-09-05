@@ -11,11 +11,11 @@ require 'active_support/core_ext'
     # * @config - Configuration of this processor. Allows multiple processors to be handled at one time
     # * @documents - Array to hold information about ewach document found in the raw file 
 #    def initialize(config_path, mode, options = {}) 
-    def initialize(configuration)
+    def initialize()
       #puts "Initializing Processor with options: #{options}"
       #$descriptors = nil
       @config = Config.active #$configutation
-      @processor_name = configuration.processor_name
+      @processor_name = @config.processor_name
 
 
       #

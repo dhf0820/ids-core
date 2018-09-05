@@ -11,7 +11,7 @@ describe Processor, focus: true do
     @ts.create_definitions
 
     @config = Config.new()
-    @reader = Reader.new(@config)
+    @reader = Reader.new()
     @log = Logging::Logger["processor::test"]
     @processor = @reader.processor
   end

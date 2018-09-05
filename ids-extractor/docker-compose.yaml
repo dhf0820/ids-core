@@ -4,8 +4,11 @@ services:
     build: .
     #command: bundle exec rackup -p 3000
     environment:
-      - SERVICE=demo
+      - SERVICE=demo_reader
       - CUSTOMER=cutter
+      - MONGO_ENV=atlas_dev
+      - IDS_ATLAS_DEV_URI="mongodb://ids_user:AhUMadl0nPXSITp9@1ids-dev0-shard-00-00-owaps.mongodb.net:27017,ids-dev0-shard-00-01-owaps.mongodb.net:27017,ids-dev0-shard-00-02-owaps.mongodb.net:27017/ids_dev?ssl=true&replicaSet=IDS-dev0-shard-0&authSource=admin"
+ 
 
 #    env_file:
 #      - '.env'

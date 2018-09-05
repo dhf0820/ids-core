@@ -20,7 +20,7 @@ require_relative './recognizers'
       @customer_name = ENV['CUSTOMER']
       @service_name = ENV['SERVICE']
 
-			@@config = self
+			@@config = @config = self
 
 
 			#@@current_config['db_connection'] = $db_connection
@@ -31,6 +31,7 @@ require_relative './recognizers'
 
 
       @process = AppEnvironment.for_process(@customer_name, @service_name)
+
       @sys = @process.sys
       @sys_env = @sys.environment
       @env = @process.environment
@@ -83,7 +84,7 @@ require_relative './recognizers'
 			# end
 			#
 			# next_process =
-			# 	#puts "creating inbound queue: #{inqueue_name}"
+      # 	#puts "creating inbound queue: #{inqueue_name}"
 			@in_queue =  InboundQueue.new(amqp_connection, in_queue_name)
 			@out_queue = NextQueue.new(amqp_connection, out_queue_name)
 			# $next_queue = NextQueue.new($amqp_connection, next_queue)
@@ -136,9 +137,9 @@ require_relative './recognizers'
     #   @proc.customer
     # end
 
-    def in_queue_name
-        @proc.in_queue_name
-    end
+    # def in_queue_name
+    #     @proc.in_queue_name
+    # end
 
 
 
@@ -147,49 +148,49 @@ require_relative './recognizers'
 	     #    @proc.environment[:out_queue] = value
         # end
 
-        def out_queue_name
-	        @proc.environment[:out_queue]
-        end
+        # def out_queue_name
+	      #   @proc.environment[:out_queue]
+        # end
 
         # def in_queue_name=(value)
 	     #    self.environment[:in_queue] =  value
         # end
 
-        def in_queue_name
-	        @proc.environment[:in_queue]
-        end
+        # def in_queue_name
+	      #   @proc.environment[:in_queue]
+        # end
 
         # def error_queue_name=(value)
 	     #    self.environment[:error_queue] =  value
         # end
 
-        def error_queue_name
-	        @proc.environment[:error_queue]
-        end
+        # def error_queue_name
+	      #   @proc.environment[:error_queue]
+        # end
 
         # def app_name=(value)
 	     #    self.environment[:app_name] = value
         # end
 
-        def app_name
-	        @proc.environment[:app_name]
-        end
+        # def app_name
+	      #   @proc.environment[:app_name]
+        # end
 
         # def log_key=(value)
 	     #    self.environment[:log_key] = value
         # end
 
-        def log_key
-	        @proc_env[:log_key]
-        end
+        # def log_key
+	      #   @proc_env[:log_key]
+        # end
 
         # def log_topic=(value)
 	     #    self.environment[:log_topic] = value
         # end
 
-        def log_topic
-	        @proc.environment[:log_topic]
-        end
+        # def log_topic
+	      #   @proc.environment[:log_topic]
+        # end
 
         def in_queue=(queue)
 	        @in_queue = queue
@@ -498,9 +499,12 @@ require_relative './recognizers'
 		# 	@descriptors = descriptor
 		# end
 #ordered list of valid descriptors.  Use this list to check current document for each possible recognizer in the proper order.
-		def descriptors_keys
-			@proc.descriptor_keys
-		end
+    
+
+
+    # def descriptors_keys
+		# 	@proc.descriptor_keys
+		# end
 
 		def create_processor
 			@processor = Processor.new($config) if @processor.nil?
@@ -551,9 +555,10 @@ require_relative './recognizers'
 		end
 
     def method_missing(m, *args, &block)
-      puts "There's no method called #{m} -  args: #{args}  here -- please try again."
+      puts "There's no method called #{m} -  args: #{args}  in config -- Using app_environment."
 
-      @proc_env[m.to_sym]
+     @proc.send(m, *args, &block)
+      #@proc_env[m.to_sym]
     end
 
 	end

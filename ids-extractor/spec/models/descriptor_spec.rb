@@ -12,7 +12,7 @@ describe Descriptor do
     @ts.create_definitions
 
     @config = Config.new()
-    @reader = Reader.new(@config)
+    @reader = Reader.new()
 
     @processor = @reader.processor
 

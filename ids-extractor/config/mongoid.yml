@@ -27,6 +27,14 @@ atlas_dev:
   options:
     raise_not_found_error: false
 
+k8s_local:
+  clients:
+    default:
+      uri: <%= ENV['IDS_ATLAS_DEV_URI'] %>
+      options:
+        connect_timeout: 15
+  options:
+    raise_not_found_error: false
  #export DATABASE_URL=mongodb://localhost:27017/ids_api_test
 
 test:

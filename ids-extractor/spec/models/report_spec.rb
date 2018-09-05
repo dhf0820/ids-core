@@ -15,7 +15,7 @@ describe Report do
 
     @config = Config.new()
 
-    @reader = Reader.new(@config)
+    @reader = Reader.new()
     @processor = @reader.processor
   end
 	#
@@ -38,7 +38,7 @@ describe Report do
 
       @config = Config.new()
 
-      @reader = Reader.new(@config)
+      @reader = Reader.new()
       @processor = @reader.processor
       @document = @processor.process ("./spec/fixtures/processors/test_reader/test/test_data/consult.pdf.txt")
     end

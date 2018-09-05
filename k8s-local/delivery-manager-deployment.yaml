@@ -32,3 +32,4 @@ spec:
               key: IDS_ATLAS_DEV_URI
       imagePullSecrets:
       - name: regcred
+      

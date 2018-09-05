@@ -37,27 +37,28 @@ require './lib/vs_log'
   BLANK_CHARS = " \t\b\n"
   END_OF_REPORT = 1
   PAGE_NUMBER = 2
-  $configuration = nil
+  #$config = nil
   $reader = nil
 
   class Reader
-    def initialize(configuration) #process_def, options = {})
+    def initialize() 
+      @config = Config.active
       #puts "Reader.init Version: #{VERSION} process_def: #{process_def} options: #{options}"
       options = {}
-      # if configuration.nil?
-      #   $log.warn "@configuration was not set using default reader"
-      #   $configuration = @configuration = Config.new( 'reader')
+      # if config.nil?
+      #   $log.warn "@config was not set using default reader"
+      #   $config = @config = Config.new( 'reader')
       # else
-      #   @configuration = configuration
+      #   @config = config
       # end
 
-      processor_name = configuration.processor_name
+      processor_name = @config.processor_name
 
-      # puts "    Reader $configuration: #{$configuration.inspect}"
-      #options[:name] = configuration.processor_name unless options[:name]
-      # options[:base_path] = $configuration.base_path
+      # puts "    Reader $config: #{$config.inspect}"
+      #options[:name] = config.processor_name unless options[:name]
+      # options[:base_path] = $config.base_path
 
-      @processor = Processor.new(configuration) if @processor.nil?
+      @processor = Processor.new() if @processor.nil?
       $reader = @reader = self
       #puts "ProcessorName = #{options[:name]}"
 
@@ -68,8 +69,8 @@ require './lib/vs_log'
       @reader
     end
 
-    def configuration
-      @configuration
+    def config
+      @config
     end
 
 
@@ -77,7 +78,7 @@ require './lib/vs_log'
     #   Config.current(key)
     # end
     def create_processor(options = {})
-      options[:name] = $configuration.processor_name unless options[:name]
+      options[:name] = $config.processor_name unless options[:name]
 
       @processor = Processor.new(options) if @processor.nil?
     end
@@ -89,27 +90,27 @@ require './lib/vs_log'
 
     # may not need
     def processor_name
-      @configuration.processor_name
+      @config.processor_name
     end
 
     def queue_name
-      @configuration.queue_name
+      @config.queue_name
     end
 
     def queue_to
-      @configuration.queue_to
+      @config.queue_to
     end
 
     def mode
-      @configuration.runtime_mode
+      @config.runtime_mode
     end
 
     def mode=(new_mode)
-      @configuration.runtime_mode = new_mode
+      @config.runtime_mode = new_mode
     end
 
     def base_path
-      @configuration.base_path
+      @config.base_path
     end
 
   end

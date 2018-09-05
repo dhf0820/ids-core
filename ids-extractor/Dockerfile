@@ -7,8 +7,7 @@ RUN apk update \
 
 ENV LANG C.UTF-8
 ENV APP_HOME /app
-ENV APP_NAME='Reader'
-#ENV DATABASE_URL='postgres://thulfegwpuslep:8eb1175ccb0db75947541397a4b42a613aa63a7d9f40fafe43a62cecc01d5667@ec2-54-83-58-222.compute-1.amazonaws.com:5432/deau5hnpvmc842'
+ENV APP_NAME='Demo Reader'
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 

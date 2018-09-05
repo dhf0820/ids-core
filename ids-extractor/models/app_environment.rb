@@ -22,7 +22,9 @@ class AppEnvironment  < Environment
 			raise IdsError.new "Customer environment for #{customer} not setup for process #{proc}"
 		end
 		#puts "sys_env: #{@@sys_env.inspect}"
-		@@app_env = AppEnvironment.where(customer: @@sys_env.customer, process: proc).first
+    @@app_env = AppEnvironment.where(customer: @@sys_env.customer, process: proc).first
+
+    @@app_env
 	end
 
 	def self.sys
@@ -41,77 +43,83 @@ class AppEnvironment  < Environment
 		environment[key.to_sym]
 	end
 
-	def out_queue_name=(value)
-		self.environment[:out_queue] = value
-	end
+	# def out_queue_name=(value)
+	# 	self.environment[:out_queue] = value
+	# end
 
-	def out_queue_name
-		self.environment[:out_queue]
-	end
+  # def out_queue_name
+  #   @proc.out_queue_name
+	# 	#self.environment[:out_queue]
+	# end
 
-	def in_queue_name=(value)
-		self.environment[:in_queue] =  value
-	end
+	# def in_queue_name=(value)
+	# 	self.environment[:in_queue] =  value
+	# end
 
-	def in_queue_name
-		self.environment[:in_queue]
-	end
+  # def in_queue_name
+  #   @proc.in_queue_name
+	# 	#self.environment[:in_queue]
+	# end
 
-	def error_queue_name=(value)
-		self.environment[:error_queue] =  value
-	end
+	# def error_queue_name=(value)
+	# 	self.environment[:error_queue] =  value
+	# end
 
-	def error_queue_name
-		self.environment[:error_queue]
-	end
+  # def error_queue_name
+  #   @proc.error_queue_name
+	# 	#self.environment[:error_queue]
+	# end
 
-	def app_name=(value)
-		self.environment[:app_name] = value
-	end
+	# def app_name=(value)
+	# 	self.environment[:app_name] = value
+	# end
 
-	def app_name
-		self.environment[:app_name]
-	end
+  # def app_name
+  #   @proc.app_name
+	# 	#self.environment[:app_name]
+	# end
 
-	def log_key=(value)
-		self.environment[:log_key] = value
-	end
+	# def log_key=(value)
+	# 	self.environment[:log_key] = value
+	# end
 
-	def log_key
-		self.environment[:log_key]
-	end
+  # def log_key
+  #   @proc.log_key
+	# 	#self.environment[:log_key]
+	# end
 
-	def log_topic=(value)
-		self.environment[:log_topic] = value
-	end
+	# def log_topic=(value)
+	# 	self.environment[:log_topic] = value
+	# end
 
-	def log_topic
-		self.environment[:log_topic]
-	end
+  # def log_topic
+  #   @proc.log_topic
+	# 	#self.environment[:log_topic]
+	# end
 
-	def in_queue=(queue)
-		@in_queue = queue
-	end
+	# def in_queue=(queue)
+	# 	@in_queue = queue
+	# end
 
-	def in_queue
-		@in_queue
-	end
+	# def in_queue
+	# 	@in_queue
+	# end
 
-	def out_queue=(queue)
-		@out_queue = queue
-	end
+	# def out_queue=(queue)
+	# 	@out_queue = queue
+	# end
 
-	def out_queue
-		@out_queue
-	end
+	# def out_queue
+	# 	@out_queue
+	# end
 
-	def err_queue=(queue)
-		@error_queue = queue
-	end
+	# def err_queue=(queue)
+	# 	@error_queue = queue
+	# end
 
-	def err_queue
-		@error_queue
-	end
+	# def err_queue
+	# 	@error_queue
+	# end
 
 	def amqp
 		if @amqp.nil?
@@ -168,13 +176,18 @@ class AppEnvironment  < Environment
 		@rabbit_name
 	end
 
-	def descriptor_keys
-		self.environment[:descriptor_keys]
-	end
+	# def descriptor_keys
+	# 	self.environment[:descriptor_keys]
+	# end
 
 	def save
 		super
 	end
 
+  def method_missing(m, *args, &block)
+    puts "There's no method called #{m} -  args: #{args}  here -- Looking in Environment hash"
+
+    @@app_env.environment[m.to_sym]
+  end
 
 end

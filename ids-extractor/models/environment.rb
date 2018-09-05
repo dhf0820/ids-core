@@ -11,7 +11,13 @@ require './models/ids_error'
 
 
 		field   :customer,          type:   String
-		field   :process,           type:   String
+    field   :process,           type:   String
+    field   :in_queue_name,     type:   String
+    field   :out_queue_name,    type:   String
+    field   :error_queue_name,  type:   String
+    field   :app_name,          type:   String
+    field   :log_topic,         type:   String
+    field   :log_key,           type:   String  
 		field   :environment,       type:   Hash,       default: {}
 		field   :updated,           type:   Hash,       default: {}
 		field   :created,           type:   Hash,       default: {}

@@ -20,7 +20,7 @@ spec:
         image: dhf0820/ids-extractor
         env:
         - name: SERVICE
-          value: 'demo-reader'
+          value: 'demo_reader'
         - name: CUSTOMER
           value: 'cutter'
         - name: MONGO_ENV

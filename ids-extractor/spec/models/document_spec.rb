@@ -13,7 +13,7 @@ describe Document do
 
     @config = Config.new()
 
-    @reader = Reader.new(@config)
+    @reader = Reader.new()
     @processor = @reader.processor
   end
 

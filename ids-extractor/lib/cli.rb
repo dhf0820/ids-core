@@ -39,6 +39,9 @@ require_relative './mongo_connection'
 #module IDSReader
 	class CLI
 
+    def initialize
+      @config = Congfig.new
+    end
 
 		def initialize_queues(connection)
 
@@ -46,13 +49,13 @@ require_relative './mongo_connection'
 
 		def self.execute()
 
-			options = {
-				type:  nil,
-				debug: :WARN,
-				environment: nil,
-				reader: nil,
-				mode: 'test'
-			}
+			# options = {
+			# 	type:  nil,
+			# 	debug: :WARN,
+			# 	environment: nil,
+			# 	reader: nil,
+			# 	mode: 'test'
+			# }
 			#unless $rspec_test
 			#
 			# 	mandatory_options =  %w(reader)  # Required options that must be present or will not start
@@ -131,13 +134,11 @@ require_relative './mongo_connection'
 			end
 			STDERR.puts "   Customer: #{customer}  -  service: #{service}"
 
-			#puts "Requested reader: [#{options[:reader]}]"
-			#puts "options: #{options}"
 
 
-			$configuration = Config.new(customer, service)
+			$configuration = Config.new()
 
-			$reader = Reader.new($configuration)
+			$reader = Reader.new()
 
 			inqueue = QueueProcessor.new( $reader)
 

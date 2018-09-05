@@ -14,7 +14,7 @@ describe Reader, focus: true do
 		@ts.create_definitions
 
 		@config = Config.new()
-		@reader = Reader.new(@config)
+		@reader = Reader.new()
 	end
 
   # before :all do

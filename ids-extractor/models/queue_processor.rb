@@ -68,7 +68,12 @@ require 'json'
 				case @queue_data['command']
 				when 'reset'
 					process_reset
-					@inbound_queue.ack(delivery_info.delivery_tag)
+          @inbound_queue.ack(delivery_info.delivery_tag)
+        when 'shutdown'
+          puts "Shutdown in_queue"
+          @in_queue.ack(@delivery_info.delivery_tag)
+          @in_queue.close
+          exit(0)  
 				end
 				@job_id = @queue_data['job_id']
 				@source = @queue_data['source']
