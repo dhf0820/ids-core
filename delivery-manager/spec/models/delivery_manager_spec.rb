@@ -12,7 +12,7 @@ require './lib/work_queue'
 
 
 
-RSpec.describe DeliveryManager, type: :model, focus: true do
+RSpec.describe DeliveryManager, type: :model do
 	before :suite do
 		puts "Initializing RabbitMQ"
 	end
@@ -22,7 +22,7 @@ RSpec.describe DeliveryManager, type: :model, focus: true do
 
 		@ds = DeliverySetup.new
 		@ds.create_environment
-		@ds.create_rabbit
+
 
 		@doc_class = @ds.document_class_type('consult')
 		@doc_class.save
@@ -54,7 +54,7 @@ RSpec.describe DeliveryManager, type: :model, focus: true do
 	end
 
 
-	it 'should create a mail delivery request with no profile' do
+	it 'should create a mail delivery request with no profile', focus: true do
 		# @dp = DeliveryProfile.create_type_profile(@type_info, @prac.primary_device, @prac.summary, [:cc, :generating])
 		# @dp.save
 		@data['cc1'] = @prac.full_name

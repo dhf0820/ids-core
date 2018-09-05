@@ -1,0 +1,43 @@
+# A sample Gemfile
+source 'http://rubygems.org'
+ruby '2.4.2'
+
+gem 'activesupport'
+#gem 'activerecord'
+#gem 'pg'
+
+#gemspec
+
+
+gem 'andand'
+gem 'logging'
+gem 'rake'
+
+gem 'iconv'
+gem 'rghost'      #,            '~> 0.8.7.2'
+gem 'builder'
+gem 'json'
+gem 'bunny'
+
+
+gem 'mongoid', '~> 7'
+gem 'bson_ext'
+gem 'rest-client'
+
+gem 'pdf-reader'
+
+
+group :development, :test do
+	gem 'pry'
+	gem 'pry-coolline'
+	gem 'guard-rspec'
+	gem 'guard-bundler'
+	gem 'pry-byebug'
+	gem 'rspec'
+	gem 'machinist'
+	gem "faker"
+	gem "factory_bot"
+	gem "database_cleaner"
+end
+
+

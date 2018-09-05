@@ -44,23 +44,23 @@ class DeliverySetup
 		$app_env = AppEnvironment.new
 		$app_env.customer = ENV['CUSTOMER']
 		$app_env.process = ENV['SERVICE']
-		$app_env.out_queue = 'test_delivery'
-		$app_env.in_queue = 'test_dispatch'
+		$app_env.out_queue_name = 'test_delivery'
+		$app_env.in_queue_name = 'test_dispatch'
 		$app_env.app_name = 'test_disp'
 		$app_env.log_key  = 'test_disp'
 		$app_env.save
 		$app_env
-
+    @config = Config.new
 		$remote = RemoteRepository.new
 
 
 	end
 
-	def create_rabbit
-		$connection = Bunny.new($cust_env.amqp)
-		$connection.start
+	# def create_rabbit
+	# 	$connection = Bunny.new($cust_env.amqp)
+	# 	$connection.start
 
-	end
+	# end
 
 
 

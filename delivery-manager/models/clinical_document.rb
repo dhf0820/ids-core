@@ -89,21 +89,22 @@ class ClinicalDocument
 		data = {}
 		data['ids_id'] = self.id
 		data['remote_id'] = self.remote_id
-		data['patient_id'] = self.patient_id
-		data['visit_id'] = self.visit_id
-		data['type_id'] = self.type_id
-		data['version'] = self.version_number  #current_version
+		data['patient_id'] = self.patient[:id]
+		data['visit_id'] = self.visit[:id]
+		data['type_id'] = self.type_info[:id]
+		data['version'] = self.version_num  #current_version
 		data
 	end
 
 	def save
 		newrec = self.new_record
 		super
-		puts "Saving remote document"
-		if newrec
-			doc = $remote.document_save(self)
-			doc.save
-		end
+    puts "Saving remote document - NOT IMPLEMENTED"
+#TODO save the document in remote system ChartArchive
+		# if newrec
+		# 	doc = $remote.document_save(self)
+		# 	doc.save
+		# end
 	end
 
 end

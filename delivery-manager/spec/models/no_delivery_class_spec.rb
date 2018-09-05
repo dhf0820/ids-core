@@ -10,7 +10,7 @@ RSpec.describe NoDeliveryClass, type: :model do
 	end
 
 
-	it "should crerate a complete No delivery class and delivery", focus: true do
+	it "should crerate a complete No delivery class and delivery" do
 		nc = NoDeliveryClass.new #({name: 'None', description: "No delivery"})
 		expect(nc.name).to eql 'None'
 		expect(nc.description).to eql "No delivery this type/class of documents"
@@ -18,7 +18,7 @@ RSpec.describe NoDeliveryClass, type: :model do
 		expect(nc.devices[0][:name]).to eql 'None'
 	end
 
-	it "should create only one default No Delivery Class", focus: true do
+	it "should create only one default No Delivery Class" do
 		ndc = NoDeliveryClass.new
 		expect{NoDeliveryClass.new}.to raise_error('No Delivery class is already set up. Use it.')
 		# dnone = NoneClass.default

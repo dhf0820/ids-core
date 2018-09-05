@@ -1,0 +1,81 @@
+
+local_dev:
+  clients:
+    default:
+      uri: <%= ENV['IDS_LOCAL_URI'] %>
+      options:
+        connect_timeout: 15
+  options:
+    raise_not_found_error: false
+
+development:
+  clients:
+    default:
+      uri: <%= ENV['IDS_API_DEV_URI'] %>
+      options:
+        connect_timeout: 15
+  options:
+    raise_not_found_error: false
+
+
+atlas_dev:
+  clients:
+    default:
+      uri: <%= ENV['IDS_ATLAS_DEV_URI'] %>
+      options:
+        connect_timeout: 15
+  options:
+    raise_not_found_error: false
+
+ #export DATABASE_URL=mongodb://localhost:27017/ids_api_test
+
+test:
+  clients:
+    default:
+      database: ids_api_test
+      hosts:
+        - localhost:27017
+      options:
+        connect_timeout: 15
+
+production:
+  clients:
+     default:
+      uri: <%= ENV['IDS_API_URI'] %>
+      options:
+        connect_timeout: 15
+  options:
+    raise_not_found_error: false
+
+
+atlas:
+  clients:
+    # Defines the default client. (required)
+    default:
+      # Defines the name of the default database that Mongoid can connect to.
+      # (required).
+      database: 'ids_dev'
+
+      # Provides the hosts the default client can connect to. Must be an array
+      # of host:port pairs. (required)
+      hosts:
+
+        - ids-dev0-shard-00-00-owaps.mongodb.net:27017
+        - ids-dev0-shard-00-01-owaps.mongodb.net:27017
+        - ids-dev0-shard-00-02-owaps.mongodb.net:27017
+
+      options:
+        # The name of the user for authentication.
+        user: ids_user
+
+        # The password of the user for authentication.
+        password: Enyedi57!10#1
+
+        # The database or source to authenticate the user against. If the database
+        # specified above is not admin, admin MUST be specified here.
+        auth_source: admin
+
+        # All Atlas servers use SSL. (default: false)
+        ssl: true
+
+ #   mongodb://ids_user:Enyedi57!10#1@ids-dev0-shard-00-00-owaps.mongodb.net:27017,ids-dev0-shard-00-01-owaps.mongodb.net:27017,ids-dev0-shard-00-02-owaps.mongodb.net:27017/ids_dev?ssl=true&replicaSet=IDS-dev0-shard-0&authSource=admin

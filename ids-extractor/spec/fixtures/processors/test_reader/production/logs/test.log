@@ -1,0 +1,2378 @@
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  #<ReportReader::Processor:0x007f2e9fdcc9c0>::document : Health and Physical A53 found with 3 pages
+  WARN  #<ReportReader::Processor:0x007f2e9fdcc9c0>::document : Unknown report found
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Unknown report found
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Unknown report found
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Unknown report found
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Unknown report found
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Unknown report found
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Unknown report 1 found in ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  document : Health and Physical A53 found with 3 pages
+  WARN  document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Descriptor : Invalid data extract for data field name [junk]
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Descriptor : Invalid data extract for data field name [junk]
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  processor::test : test warn
+ DEBUG  processor::test : test debug
+ DEBUG  processor::test : This is a Debug Message
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+ DEBUG  processor::test : This is a Debug Message
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+ DEBUG  processor::test : This is a Debug Message
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Descriptor : Invalid data extract for data field name [junk]
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+ DEBUG  processor::test : This is a Debug Message
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader/test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader/test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader/test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Descriptor : Invalid data extract for data field name [junk]
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+ DEBUG  processor::test : This is a Debug Message
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader/test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Document : Basic Sample Descriptor found with 1 pages
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  #<ReportReader::Processor:0x007f32682317b0>::document::report : Invalid :line option String for (?-mix:Primary\ Care\ Provider)
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt
+  WARN  Processor : Descriptor name junk is not valid
+  INFO  Processor : This reader recognizes the following reports:
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor :    Health and Physical A53
+  INFO  Processor :    Basic Sample Descriptor
+  INFO  Processor : Test Document Processor created in test mode using ./spec/fixtures/processors/test_reader/config/
+  INFO  Processor : Processing ./spec/fixtures/processors/test_reader//test_data/test.txt
+  INFO  Document : Health and Physical A53 found with 3 pages
+  WARN  Document : Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt

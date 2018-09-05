@@ -18,14 +18,13 @@ spec:
       containers:
       - name: delivery-manager
         image: dhf0820/delivery-manager
-
         env:
         - name: SERVICE
-          value: 'delivery_manager'
+          value: 'delivery-manager'
         - name: CUSTOMER
           value: 'cutter'
         - name: MONGO_ENV
-          value: :atlas_dev
+          value: k8s_local
         - name: IDS_ATLAS_DEV_URI
           valueFrom:
             secretKeyRef:

@@ -2,16 +2,16 @@
 
 class VsLog
 
-	def initialize(connection)
+	def initialize()
+		@config = Config.active
+		@connection = @config.amqp_connection
+		@app_name = @config.app_name
 
-		@connection = connection
-		@app_name = $app_env.app_name
-
-		STDERR.puts "@@@###  #{@app_name} - Worker Queue Bunny Connection: #{@connection.inspect}"
+		#STDERR.puts "@@@###  #{@app_name} - Worker Queue Bunny Connection: #{@connection.inspect}"
 		@ch = @connection.create_channel
 		#@ch.topic('ids_topic_logs')
 
-		@log_key = $app_env.log_key
+		@log_key = @config.log_key
 		@logx = topic_exchange('ids_logs')
 	end
 

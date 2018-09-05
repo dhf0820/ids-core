@@ -17,19 +17,20 @@ RSpec.describe NoDelivery, type: :model do
 	end
 
 
-	describe 'creating NoDelivery device', focus: true do
-		it 'should not allow more than one NoDelivery device', focus: true do
+	describe 'creating NoDelivery device' do
+		it 'should not allow more than one NoDelivery device' do
 			expect{NoDelivery.new}.to raise_error('NoDelivery device already exists')
 		end
 	end
 
-	describe 'delivery queueing', focus: true do
+	describe 'delivery queueing' do
 		before :context do
 			@ds = DeliverySetup.new
 			@doc_class = @ds.document_class_type('consult')
 			@tefrench = Patient.new(name: 'Theresa French', mrn: 'te1015')
-			@tefrench.save
-			@clin_doc = ClinicalDocument.new(patient_id: @tefrench, type_id: @doc_class.document_types[0][:id])
+      @tefrench.save
+
+			@clin_doc = ClinicalDocument.new(patient: @tefrench.summary, type_info: @doc_class.document_types[0])
 			@clin_doc.save
 			@prac = @ds.create_none_practice
 			@raw = RawName.lookup(@prac.full_name)

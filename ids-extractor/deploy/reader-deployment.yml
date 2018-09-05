@@ -1,0 +1,27 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: reader-deployment
+  labels:
+    app: reader
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: reader
+  template:
+    metadata:
+      labels:
+        app: reader
+    spec:
+      containers:
+      - name: reader
+        image: dhf0820/reader:0.13.11   #dhf0820/reader:0.3
+        env:
+        - name: CUSTOMER
+          value: 'ids'
+        - name: SERVICE
+          value: 'reader'
+      imagePullSecrets:
+      - name: regcred

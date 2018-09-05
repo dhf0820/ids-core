@@ -1,0 +1,80 @@
+---
+name:   pat_name
+length: 30
+type:   alphanumeric
+---
+name:   acct_num
+length: 12
+type:   numeric
+---
+name:   mrn
+length: 8
+type:   length
+---
+name:   pcp
+length: 30
+type:   alphanumeric
+---
+name:   cc1
+length: 30
+type:   alphanumeric
+---
+name:   cc2
+length: 30
+type:   alphanumeric
+---
+name:   cc3
+length: 30
+type:   alphanumeric
+---
+name:   cc4
+length: 30
+type:   alphanumeric
+---
+name:   dob
+length: 10
+type:   date
+---
+name:   ssn
+length: 11
+type:   alphanumeric
+---
+name:   admit_date
+length: 10
+type:   date
+---
+name:   subclass
+length: 40
+type:   alphanumeric
+---
+name:   date_of_report
+length: 10
+type:   date
+---
+name:   ordering_physician
+length: 30
+type:   alphanumeric
+---
+name:   requesting_physician
+length: 30
+type:   alphanumeric
+---
+name:   doc_id
+length: 20
+type:   alphanumeric
+---
+name:   report_class
+length: 30
+type:   alphanumeric
+---
+name:   report_type
+length: 30
+type:   alphanumeric
+---
+name:   doc_ref
+length: 20
+type:   alphanumeric
+---
+name:   doc_type
+length: 20
+type:   alphanumeric

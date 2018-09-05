@@ -2,7 +2,6 @@
 
 #ENV['MONGO_ENV']= 'development'
 
-
 require './lib/mongo_connection'
 require './models/patient.rb'
 require './models/updateable'
@@ -20,12 +19,12 @@ require './models/delivery_class.rb'
 #require './models/delivery_job.rb'
 require './models/environment'
 require './models/ids_error'
-
 require './lib/vs_log'
-require './lib/dispatch_queue.rb'
-require './lib/deliver_queue.rb'
+#require './lib/dispatch_queue.rb'
+#require './lib/deliver_queue.rb'
 require './lib/dispatch_failure.rb'
 require "./lib/work_queue.rb"
+require "./lib/in_queue"
 
 require './lib/version'
 require './models/delivery_manager'

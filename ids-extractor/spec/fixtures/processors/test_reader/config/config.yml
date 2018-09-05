@@ -1,0 +1,23 @@
+---
+config: &defaults
+#    base_path:  to specify a base information somewhere other than environment variable 
+    processor_name: "TestDocumentProcessor"
+    archive_path: "/tmp/archive/"
+    pending_path: "pending/"
+#    descriptor_path: "descriptors/"
+    output_path: "output/"
+    tmp_path: "tmp/"
+    queue_name: "queue"
+    queue_to: 'ihids'
+    log_file: 'logs/test.log'
+    mode:   "test"
+#    log_path:   /path to log directoy
+
+
+
+# [base_path               ][processor_path]    
+# vertisoft/processors/live/clinicomp/descriptors/   Descriptors for this reader
+# vertisoft/processors/live/clinicomp/output/        Output reports for this reader
+# vertisoft/processors/live/clinicomp/processes/     Archive of processed raw files
+# vertisoft/processors/live/clinicomp/pending/       Default location for pending file
+#                                                       Not required to be here though

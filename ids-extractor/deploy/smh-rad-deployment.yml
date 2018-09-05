@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smh-rad-deployment
+  labels:
+    app: smh-rad
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: smh-rad
+  template:
+    metadata:
+      labels:
+        app: smh-rad
+    spec:
+      containers:
+      - name: smh-rad
+        image: dhf0820/reader:0.13.11
+        env:
+        - name: READER
+          value: 'smh-rad'
+        - name: CUSTOMER
+          value: 'sharp'
+      imagePullSecrets:
+      - name: regcred

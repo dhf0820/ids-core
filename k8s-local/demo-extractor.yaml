@@ -1,0 +1,36 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: demo-extractor
+  labels:
+    app: demo-extractor
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-extractor
+  template:
+    metadata:
+      labels:
+        app: demo-extractor
+    spec:
+      containers:
+      - name: demo-extractor
+        image: dhf0820/ids-extractor
+        env:
+        - name: SERVICE
+          value: 'demo-reader'
+        - name: CUSTOMER
+          value: 'cutter'
+        - name: MONGO_ENV
+          value: k8s_local
+        - name: IDS_ATLAS_DEV_URI
+          valueFrom:
+            secretKeyRef:
+              name: dev-mongo-uri
+              key: IDS_ATLAS_DEV_URI  
+      imagePullSecrets:
+      - name: regcred
+
+# kubectl create secret docker-registry regcred --docker-server='https://index.docker.io/v1/' --docker-username='dhf0820' --docker-password='dEnyedi57!o' --docker-email='dhfrench@vertisoft.com'

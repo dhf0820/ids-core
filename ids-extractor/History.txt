@@ -1,0 +1,9 @@
+=== 0.1.2 2010-05-09
+
+* 0.1.2
+  * Moved readerconfig yaml file to the config directory
+* 0.1.1
+  * Added system_path as config value. Returns the same as the ENV value.
+* 1 major enhancement:
+  * Initial release
+

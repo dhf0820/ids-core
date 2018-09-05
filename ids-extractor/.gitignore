@@ -1,0 +1,13 @@
+spec/fixtures/test_reader/test/logs/*
+spec/fixtures/test_reader/test/tmp/*
+spec/fixtures/test_reader/test/output/*
+spec/fixtures/processors/test_reader/test/logs/*
+spec/fixtures/test_reader/test/tmp/*
+spec/fixtures/processors/test_reader/test/output/*
+spec/fixtures/processors/test_reader/test/test_data/*.bad
+*.gem
+vendor/*
+.bundle
+.DS_Store
+.idea/*
+.idea

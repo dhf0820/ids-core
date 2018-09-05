@@ -1,10 +1,10 @@
 
 FactoryBot.define do
   factory :phy_french, class: Physician do
-    ref_physician_id 'f12345'
-    hospital_id '12345'
-    has_privledges true
-    affiliated false
+    ref_physician_id { 'f12345' }
+    hospital_id { '12345' }
+    has_privledges { true }
+    affiliated { false }
     #status 'active'
     after(:build) do |p|
 	    p.name = {}
@@ -16,10 +16,10 @@ FactoryBot.define do
   end
 
   factory :phy_enyedi, class: Physician do
-	  ref_physician_id 'f12345'
-	  hospital_id '12345'
-	  has_privledges true
-	  affiliated false
+	  ref_physician_id { 'f12345' }
+	  hospital_id { '12345' }
+	  has_privledges { true }
+	  affiliated { false }
 	  #status 'active'
 	  after(:build) do |p|
 		  p.name = {}
@@ -30,10 +30,10 @@ FactoryBot.define do
   end
 
   factory :phy_default, class: Physician do
-	  ref_physician_id 'd12345'
-	  hospital_id 'dh12345'
-	  has_privledges true
-	  affiliated false
+	  ref_physician_id { 'd12345' }
+	  hospital_id { 'dh12345' }
+	  has_privledges { true }
+	  affiliated { false }
 	  #status 'active'
 	  after(:build) do |p|
 		  p.name = {}
@@ -45,10 +45,10 @@ FactoryBot.define do
   end
 
   factory :phy_none, class: Physician do
-	  ref_physician_id 'n12345'
-	  hospital_id 'nh12345'
-	  has_privledges true
-	  affiliated false
+	  ref_physician_id { 'n12345' }
+	  hospital_id { 'nh12345' }
+	  has_privledges { true }
+	  affiliated { false }
 	 # status 'active'
 	  after(:build) do |p|
 		  p.name = {}

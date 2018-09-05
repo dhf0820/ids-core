@@ -5,7 +5,7 @@ require './spec/factories/fax_device'
 require './models/ids_error'
 
 
-RSpec.describe FaxClass, type: :model, focus: true do
+RSpec.describe FaxClass, type: :model do
 	before :each do
 
 	end

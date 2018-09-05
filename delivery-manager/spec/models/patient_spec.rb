@@ -30,7 +30,7 @@ RSpec.describe Patient, type: :model do
 		expect(pat).to be_nil
 	end
 
-	it 'should create a new patient', focus: true do
+	it 'should create a new patient' do
 		pat = Patient.new
 
 		pat.name = 'French, Theresa'

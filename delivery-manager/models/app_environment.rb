@@ -12,30 +12,30 @@ class AppEnvironment  < Environment
 		@@app_env
 	end
 
+	def self.for_process(customer, proc)
 
-	def self.for_process(proc)
-		sys_env = CustomerEnvironment.env
-		if sys_env.nil?
-			raise IdsError.new "Customer environment not setup for process #{proc}"
+		@@sys_env = CustomerEnvironment.for_customer(customer)
+		if @@sys_env.nil?
+			raise IdsError.new "Customer environment for #{customer} not setup for process #{proc}"
 		end
-		puts "sys_env: #{sys_env.inspect}"
-		@@app_env = AppEnvironment.where(customer: sys_env.customer, process: proc).first
+		#puts "sys_env: #{@@sys_env.inspect}"
+		@@app_env = AppEnvironment.where(customer: @@sys_env.customer, process: proc).first
 	end
 
-	def out_queue=(value)
-		self.environment[:out_queue] = value
+	def out_queue_name=(value)
+		self.environment[:out_queue_name] = value
 	end
 
-	def out_queue
-		self.environment[:out_queue]
+	def out_queue_name
+		self.environment[:out_queue_name]
 	end
 
-	def in_queue=(value)
-		self.environment[:in_queue] =  value
+	def in_queue_name=(value)
+		self.environment[:in_queue_name] =  value
 	end
 
-	def in_queue
-		self.environment[:in_queue]
+	def in_queue_name
+		self.environment[:in_queue_name]
 	end
 
 	def app_name=(value)

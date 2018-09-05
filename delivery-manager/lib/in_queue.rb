@@ -3,13 +3,17 @@ require 'base64'
 require 'pry'
 
 
-class DispatchQueue
+class InQueue
 
-	def initialize(connection, name)
-		@ch   = connection.create_channel
+  def initialize( name)
+    @config = Config.active
+    connection = @config.amqp_connection
+
+		@ch  = connection.create_channel
 		n = 1
-		@ch.prefetch(n)
-		@queue = @ch.queue(name,:persistent => true, :auto_delete => false, :durable => true, :exclusive => false)
+    @ch.prefetch(n)
+    @queue = @ch.queue(name, :persistent => true, :auto_delete => false, 
+        :durable => true, :exclusive => false)
 
 		#@key = "ihids.archive.#{mode}"
 	end

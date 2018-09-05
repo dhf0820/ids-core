@@ -14,7 +14,7 @@ RSpec.describe FaxDevice, type: :model do
 		@ds = DeliverySetup.new
 	end
 
-	it 'should create a valid fax device for 855-998-7638', focus: true do
+	it 'should create a valid fax device for 855-998-7638' do
 		fc = FaxClass.new
 		fc.save
 		prac = @ds.create_fax_practice

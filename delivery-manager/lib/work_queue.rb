@@ -5,22 +5,15 @@ require 'json'
 
 # queue to
 class WorkQueue
-  def initialize(connection, q_name)
-		@ch = connection.create_channel
-		@queue = @ch.queue(q_name, :durable => true, exclusive: false, :auto_delete => false)
-    # Messaging.connection =  Bunny.new.tap do |conn|
-    #   conn.start
-    # end
+  def initialize(name)
+    @connection = Config.active.amqp_connection
+    @ch = @connection.create_channel
+		n = 1
+		@ch.prefetch(n)
+		@queue = @ch.queue(name,:persistent => true, :auto_delete => false, :durable => true, :exclusive => false)
 
-    # Messaging.channel = Messaging.connection.create_channel
-    # Messaging.exchange = Messaging.connection.topic('ihids.messages')
-		end
+  end
 
-  # def self.connection
-  #   @connection  ||= Bunny.new.tap do |c|
-  #     c.start
-  #   end
-  # end
   def publish(data)
 	  unless data['image'].nil?
 			data[image] = Base64.encode64(data['image'])

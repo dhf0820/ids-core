@@ -1,0 +1,442 @@
+{"timestamp":"2015-11-26T17:11:05.567156-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:11:05.571706-08:00","level":"WARN","logger":"#\u003cReportReader::Processor:0x007f2e9fdcc9c0\u003e::document","message":"Unknown report found"}
+{"timestamp":"2015-11-26T17:12:41.735403-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:12:41.740061-08:00","level":"WARN","logger":"document","message":"Unknown report found"}
+{"timestamp":"2015-11-26T17:14:14.360032-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:17:04.602409-08:00","level":"WARN","logger":"document","message":"Unknown report found"}
+{"timestamp":"2015-11-26T17:17:06.633088-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:17:12.911942-08:00","level":"WARN","logger":"document","message":"Unknown report found"}
+{"timestamp":"2015-11-26T17:17:28.998018-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:17:31.340606-08:00","level":"WARN","logger":"document","message":"Unknown report found"}
+{"timestamp":"2015-11-26T17:19:25.227865-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:21:14.403735-08:00","level":"WARN","logger":"document","message":"Unknown report found"}
+{"timestamp":"2015-11-26T17:21:39.343187-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:21:39.347834-08:00","level":"WARN","logger":"document","message":"Unknown report 1 found in ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:22:26.023131-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:22:26.027670-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:24:30.201187-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:24:30.205941-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:24:30.212785-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:24:30.214691-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:24:30.218813-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:24:30.220677-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:24:30.227238-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:24:30.229211-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:24:30.234396-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:24:30.236408-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:24:30.242799-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:24:30.244708-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:25:06.209137-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:25:06.213856-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:27:52.119620-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:27:52.124224-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:28:37.768856-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:28:37.773441-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:32:56.036973-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:32:56.041595-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T17:34:38.378235-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T17:39:04.627753-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:08:23.845130-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:08:55.175237-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:11:14.815097-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:11:38.814789-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:13:04.182478-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:13:09.999203-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:16:44.110813-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:17:01.371363-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:17:01.376076-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:17:30.898034-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:17:30.902767-08:00","level":"WARN","logger":"document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:19:14.854395-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:19:14.859114-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:19:14.865675-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:19:14.867625-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:19:14.871611-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:19:14.873422-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:19:14.879369-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:19:14.881641-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:19:14.887010-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:19:14.888895-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:19:14.894660-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:19:14.896480-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:29:39.873170-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.883877-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.887433-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.890628-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.893991-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.897545-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.901408-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.905296-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.908628-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.912166-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.915511-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.918878-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.922413-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.925963-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.929818-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.937481-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.941045-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.944370-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.947879-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.951338-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.955682-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.959046-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.962531-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.966491-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.970856-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.974308-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.977923-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.978337-08:00","level":"WARN","logger":"Descriptor","message":"Invalid data extract for data field name [junk]"}
+{"timestamp":"2015-11-26T20:29:39.981962-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.988172-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.991805-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:39.995893-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:40.000293-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:40.004050-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:40.007487-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:40.010845-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:40.014345-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:29:40.017587-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.440734-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.450527-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.453688-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.456816-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.460595-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.465142-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.470679-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.477939-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.485297-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.492898-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.506332-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.514755-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:00.521995-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.381282-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.387765-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.391263-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.394585-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.397921-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.401317-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.405246-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.409698-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.413488-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.417216-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.421088-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.424799-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.430882-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.434923-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.439539-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.443239-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.446854-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.450384-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.453861-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.457278-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.460633-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.464268-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.468850-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.472910-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.476545-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.480201-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.486613-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.487035-08:00","level":"WARN","logger":"Descriptor","message":"Invalid data extract for data field name [junk]"}
+{"timestamp":"2015-11-26T20:32:23.490791-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.495020-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.499967-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.504173-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.507919-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.511445-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.515167-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.518615-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.521877-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.525566-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.530371-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.534419-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.540570-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.544145-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.547845-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.553210-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.559705-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.569461-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.578956-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.588287-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.601634-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.613170-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.623618-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.756324-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.758873-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:32:23.765394-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.767364-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:32:23.775368-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.777472-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:32:23.784270-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.786294-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:32:23.793420-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.795555-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:32:23.808871-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:32:23.810802-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:33:22.131816-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.143286-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.146800-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.152656-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.155284-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:33:22.156450-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:33:22.160832-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.162758-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:33:22.170852-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.175416-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.180146-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.186101-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.188235-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:33:22.193445-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:33:22.198650-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:05.010028-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.887437-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.893049-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.898947-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.901266-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:35:10.902455-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:35:10.906459-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.908176-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:35:10.912549-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.917042-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.921413-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.927020-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.929046-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:35:10.934132-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:10.941973-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:35:57.979846-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:36:11.000262-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:43:52.899558-08:00","level":"WARN","logger":"processor::test","message":"test warn"}
+{"timestamp":"2015-11-26T20:46:08.864934-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:47:09.462567-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.190808-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.196882-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.202593-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.207512-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.209774-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:06.211007-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:06.215219-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.217454-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:06.221439-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.225510-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.230420-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.232241-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:06.236506-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:06.241061-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.024692-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.031218-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.034650-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.038071-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.041453-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.044884-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.048753-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.053372-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.057088-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.060743-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.064440-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.068175-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.074301-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.078380-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.083107-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.086832-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.090345-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.093783-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.097372-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.100762-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.104159-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.107742-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.112517-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.116166-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.119864-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.123559-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.129717-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.130155-08:00","level":"WARN","logger":"Descriptor","message":"Invalid data extract for data field name [junk]"}
+{"timestamp":"2015-11-26T20:49:13.133535-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.137015-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.142129-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.146408-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.150285-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.153885-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.157665-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.161102-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.164446-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.168012-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.173030-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.177009-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.183232-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.186882-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.190649-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.195400-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.201193-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.210920-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.219241-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.227694-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.240186-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.249658-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.259791-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.270915-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.276798-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.281993-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.289840-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.293095-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.294877-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.301003-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.302905-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.308856-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.314881-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.320760-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.323176-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.330829-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.340296-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.444752-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.446988-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.454893-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.456987-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.464477-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.466478-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.480172-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.482316-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.490225-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.492149-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:49:13.501013-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:49:13.503106-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T20:50:27.489323-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:50:27.497894-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:50:27.503480-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:50:27.505640-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader/test_data/test.txt"}
+{"timestamp":"2015-11-26T20:50:27.510593-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:50:27.518432-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.631081-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.640164-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.646158-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.648472-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader/test_data/test.txt"}
+{"timestamp":"2015-11-26T20:51:48.654162-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.661340-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.671400-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.677329-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.683559-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.689621-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.695601-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.701896-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.707981-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.717448-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.723560-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:51:48.729634-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.424811-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.435576-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.442371-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.444518-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader/test_data/test.txt"}
+{"timestamp":"2015-11-26T20:53:55.449387-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.455610-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.462249-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.468024-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.475169-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.481737-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.489632-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.495087-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.501695-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.508221-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.513923-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:53:55.519650-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:54:01.686401-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:58:23.660162-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T20:59:51.640556-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:22:38.317674-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:06.763315-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:10.340272-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:12.885488-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:14.531441-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:15.814029-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.587718-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.594270-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.597740-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.601216-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.604548-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.608969-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.613801-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.618295-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.622208-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.626023-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.629836-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.633940-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.640562-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.645482-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.649705-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.653442-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.657115-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.660778-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.664442-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.667964-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.671907-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.676710-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.680558-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.684270-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.688058-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.691737-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.697945-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.698301-08:00","level":"WARN","logger":"Descriptor","message":"Invalid data extract for data field name [junk]"}
+{"timestamp":"2015-11-26T21:23:36.702835-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.707738-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.711599-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.715415-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.719159-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.722843-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.726482-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.729917-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.734527-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.738831-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.742668-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.746264-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.752563-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.756213-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.759777-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.765759-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.771518-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.780042-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.788477-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.798875-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.810378-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.820011-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.829761-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.840554-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.846487-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.852176-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.860686-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.863190-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:36.864467-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:36.870995-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.872999-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:36.879210-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.886362-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.893437-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.895484-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:36.902015-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.911214-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.920013-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.927909-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.937490-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.939479-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader/test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:36.949309-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.962405-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.972931-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.984959-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:36.995751-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.012688-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.025222-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.039385-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.055369-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.069814-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.071144-08:00","level":"WARN","logger":"#\u003cReportReader::Processor:0x007f32682317b0\u003e::document::report","message":"Invalid :line option String for (?-mix:Primary\\ Care\\ Provider)"}
+{"timestamp":"2015-11-26T21:23:37.084417-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.103393-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.119500-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.121590-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:37.142016-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.144052-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:37.160181-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.162846-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:37.181628-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.183694-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:37.201279-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.203425-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}
+{"timestamp":"2015-11-26T21:23:37.224928-08:00","level":"WARN","logger":"Processor","message":"Descriptor name junk is not valid"}
+{"timestamp":"2015-11-26T21:23:37.227089-08:00","level":"WARN","logger":"Document","message":"Report 1 is unknown in file ./spec/fixtures/processors/test_reader//test_data/test.txt"}

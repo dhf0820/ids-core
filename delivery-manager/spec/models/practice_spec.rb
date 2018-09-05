@@ -10,7 +10,7 @@ require './spec/utilities/delivery_setup'
 
 
 
-RSpec.describe Practice, type: :modele, focus: true do
+RSpec.describe Practice, type: :modele  do
 
 
 	before :context do
@@ -31,7 +31,7 @@ RSpec.describe Practice, type: :modele, focus: true do
 
 
 
-	it 'should be able to add a custom primarydelivery device of class FAX', focus: true do
+	it 'should be able to add a custom primarydelivery device of class FAX'  do
 		ef = Practice.new
 		ef.name = 'Enyedi-French Clinic'
 		fc = FaxClass.default

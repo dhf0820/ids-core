@@ -12,7 +12,7 @@ require './spec/utilities/delivery_setup'
 
 RSpec.describe MailDelivery, type: :model do
 
-	describe 'creating MailDelivery device', focus: true do
+	describe 'creating MailDelivery device' do
 		before :each do
 			@mdc = MailDeliveryClass.default
 
@@ -23,7 +23,7 @@ RSpec.describe MailDelivery, type: :model do
 		end
 	end
 
-	# describe 'delivery queueing', focus: true do
+	# describe 'delivery queueing' do
 	# 	before :context do
 	# 		@ds = DeliverySetup.new
 	# 		@doc_class = @ds.document_class_type('consult')
@@ -48,7 +48,7 @@ RSpec.describe MailDelivery, type: :model do
 	# 	end
 	# end
 
-	describe 'delivery queueing', focus: true do
+	describe 'delivery queueing' do
 		before :each do
 			puts "\n\n     $$$ Number of Mail devices: #{MailDelivery.count}\n\n\n"
 			@ds = DeliverySetup.new

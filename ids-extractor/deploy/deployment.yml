@@ -1,0 +1,29 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: test-reader-deployment
+  labels:
+    app: test-reader
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: test-reader
+  template:
+    metadata:
+      labels:
+        app: test-reader
+    spec:
+      containers:
+      - name: test-reader
+        image: dhf0820/reader:0.13.11
+        env:
+        - name: READER
+          value: 'reader'
+        - name: CUSTOMER
+          value: 'ids'
+      imagePullSecrets:
+      - name: regcred
+
+# kubectl create secret docker-registry regcred --docker-server='https://index.docker.io/v1/' --docker-username='dhf0820' --docker-password='dEnyedi57!o' --docker-email='dhfrench@vertisoft.com'

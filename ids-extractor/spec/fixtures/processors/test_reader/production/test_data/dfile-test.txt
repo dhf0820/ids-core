@@ -1,0 +1,40 @@
+EmSTAT EDIS: md_autofax          Page 1 of 1          Wednesday - April 10, 2002 - 10:48
+
+Alliant
+
+Children's Hospital Medical Center
+Cincinnati, OH
+
+To: PHYSNAME
+
+The material in this facsimile transmission is either private, con?dential, priveledged or constitutes work product, and is
+intended only for the use of the individual(s) named above. If you are not the intended recipient, be advised that unauthorized
+use, disclosure, copying, distribution, or the taking of any action in reliance on this information is strictly prohibited.
+If you have received this transmission in error, please immediately notify us by telephone at ((513) 636-8313) to arrange
+for return of this material to us.
+
+EMERGENCY DEPARTMENT VISIT -- Record Review
+April 10, 2002
+
+
+Primary Care Provider: CEPIN, DANIEL          Arrival Date: 04/10/2002 09:51
+Referral: REFDOC
+Patient Name: PTNAME          Date of Birth: 03/30/1914    Age: 88          Sex: Female
+Med Rec #: 78559           Acct #: 6572463          Acuity: 3 - Urgent
+Insurance: INSUR
+ED Physician: ERPHYS          ED Res | PNP: CONSLT
+Chief Complaint: burning in chest
+Discharge Diagnosis: DIAG
+Disposition: DISPO
+Prescriptions: RX
+Discharge Instructions: DXINS
+Discharge Note: FREE_TEXT
+Discharge Date:
+
+A more complete record of each Emergency Department patient encounter is available in the Emergency
+Department on the arrival date of the encounter and for three days after. A copy of this record may be obtained
+by calling 636-4293 during this time period. After the fourth day post-arrival date, a more complete record of
+the Emergency Department encounter will be made available upon request through the CHMC Medical Record
+Deapartment by calling 636-4217.
+
+--------------------------------------------------------------------------------

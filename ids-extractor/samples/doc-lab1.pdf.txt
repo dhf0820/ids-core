@@ -1,0 +1,65 @@
+ setduplex/duplexflag false def/pageinc false def emulate
+
+    12/19/2005                     MERCY MT.SHASTA
+    12:46                        914 PINE STREET, MT.SHASTA, CA 69067
+                                DIRECTORS: A.MAGNUSON M.D. & D.PURTZER M.D.
+                                  CLINICAL LABORATORY
+
+     NAME: ORDERS,SPECIAL TEST102YF                   DR: PHYSICIAN UNKNOWN,
+      MR# 162751        ACCOUNT# 0000001                                 X
+      RM/BD:            LOC: LAB                                         MOUNT SHASTA,CA 96067
+                                                                         MT.SHASTA, CA 96067
+
+      ________________________________________________________________________________________________
+
+       H18100 COLL: 07/08/2004 03:00 REC: 07/08/2004 09:15 PHYS: PHYSICIAN UNKNOWN,
+
+
+       LIDOCAINE             *  8.7      [1.5-5.0]    ug/mL          {SE}
+
+         {SE} = Performed at St. Elizabeth Hospital, Red Bluff, CA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      ________________________________________________________________________________________________
+     NAME: ORDERS,SPECIAL TEST
+      MR# 162751       ACCOUNT# 0000001                              * = Abnormal,   ** = Critical
+      Rm/Bd:           LOCATION: OP LAB                          Current to 12/19/2005   12:46
+                                        INTERIM REPORT                               PAGE 1
+.                                               END OF REPORT

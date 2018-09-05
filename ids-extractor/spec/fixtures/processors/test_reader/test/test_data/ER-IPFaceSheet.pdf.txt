@@ -1,0 +1,41 @@
+   THIS FAX IS FOR YOUR INFORMATION ONLY.
+      CONFIDENTIAL PATIENT INFORMATION
+
+
+  7/24/96             MERCY MEDICAL CENTER, MT SHASTA ZP595R-3RD DAY      22:35
+
+______________________________________________________________________________
+Patient #   : 6409171  I   MED                    Med Rec #    :    49072
+Pt. Name    : ANDERS,JEAN A                       SS#          : 551-26-4334
+Address     : PO BOX 689                          Phone        : 916-964-2839
+City/State : MC CLOUD             CA   96057
+Occupation :
+DOB         :  6/11/21    Sex : F
+Admit Date :   7/21/96    Time: 10:00                   Source :
+D/S Date    :  7/22/96    Time: 10:00
+Guarantor   : ANDERS,RONALD R                     Relationship:   SPOUSE
+Address     : PO BOX 689                          Phone        : 916-964-2839
+
+City/State : MC CLOUD             CA  96057
+Emer Cont   : ANDERS,RONALD R
+Relative    : ANDERS,RONALD R
+Insurance 1: MEDICARE AETNA                       Group #      :
+Address     : P O BOX 808019                      Phone        : 707-763-5455
+City/State : PETALUMA             CA   9462       Policy       :  551264334A
+Insured     : ANDERS,JEAN
+Employer    : RETIRED
+Address     :                                     Phone        :
+City/State :
+Insurance 2: OPERATING ENGINEERS LCL 3            Group #      :
+
+Address     : P O BOX 23190                       Phone        : 415-777-1770
+City/State : OAKLAND              CA   9462       Policy       :  551328798
+Insured     : ANDERS,RONALD
+Employer    : RETIRED
+Attending Physician:      WILLIAMS,W SAM M.D.
+All Others          :
+                       WILLIAMS,W SAM M.D.
+                       WILLIAMS,W SAM M.D.
+______________________________________________________________________________
+Diagnosis                                 Diagnosis
+       ACUTE MI,DIABETES

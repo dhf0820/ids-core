@@ -4,11 +4,11 @@ require './models/delivery_class'
 
 FactoryBot.define do
 	factory :none, class: DeliveryClass do
-		name 'None'
+		name { 'None' }
 	end
 
 	factory :mail, class: DeliveryClass do
-		name 'Mail'
+		name { 'Mail' }
 		after(:build) do |d|
 			md = FactoryBot.build(:mail_dev)
 
@@ -16,10 +16,10 @@ FactoryBot.define do
 	end
 
 	factory :fax, class: DeliveryClass do
-		name 'Fax'
+		name { 'Fax' }
 	end
 
 	factory :athena, class: DeliveryClass do
-		name  "Athena"
+		name  { "Athena" }
 	end
 end

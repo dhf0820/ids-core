@@ -16,7 +16,7 @@ RSpec.describe DeliveryManager, type: :model do
 	before :context do
 		@ds = DeliverySetup.new
 		@ds.create_environment
-		@ds.create_rabbit
+
 		@doc_class = @ds.document_class_type('consult')
 
 		@doc_type = DocumentType.find @doc_class.document_types[0][:ids_id]

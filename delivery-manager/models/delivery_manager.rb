@@ -8,6 +8,7 @@ require 'yaml'
 require 'bunny'
 
 require './lib/mongo_connection'
+require './models/config'
 
 # require './models/patient.rb'
 # require './models/clinical_document.rb'
@@ -29,7 +30,7 @@ require './models/delivery_class.rb'
 require './models/environment'
 #
 require './lib/vs_log'
-require './lib/dispatch_queue.rb'
+require './lib/in_queue.rb'
 # require './lib/deliver_queue.rb'
 # require './lib/dispatch_failure.rb'
 # require "./lib/work_queue.rb"
@@ -39,51 +40,54 @@ require './models/ids_error'
 
 class DeliveryManager
 
-	def initialize()
+  def initialize()
+    @config = Config.new
+
+    @in_queue = @config.in_queue
+
 		@queued = {}
 		@entities = {}
 		@no_deliveries = {}
 
-		$service = ENV['SERVICE']
-		STDERR.puts " $$$ $service = #{$service}"
-		if $service.nil?
-			$service = 'dispatcher'
-		end
-		$customer = ENV['CUSTOMER']
-		STDERR.puts " $$$ $customer = #{$customer}"
+		# $service = ENV['SERVICE']
+		# STDERR.puts " $$$ $service = #{$service}"
+		# if $service.nil?
+		# 	$service = 'dispatcher'
+		# end
+		# $customer = ENV['CUSTOMER']
+		# STDERR.puts " $$$ $customer = #{$customer}"
 
-		if $customer.nil?
-			$customer = 'ids'
-		end
+		# if $customer.nil?
+		# 	$customer = 'ids'
+		# end
 
-		STDERR.puts "$$$CUSTOMER = #{$customer}\n\n"
-		#$db_connection = DbConnection.new (env['PG_ENV'])
-		$sys_env = CustomerEnvironment.for_customer($customer)
+		# STDERR.puts "$$$CUSTOMER = #{$customer}\n\n"
+		# #$db_connection = DbConnection.new (env['PG_ENV'])
+		# $sys_env = CustomerEnvironment.for_customer($customer)
 
-		if $sys_env.nil?
-			abort("ids environment is not set up\n")
-		end
+		# if $sys_env.nil?
+		# 	abort("ids environment is not set up\n")
+		# end
 
 		#$ids_amqp = $ids.env 'AMQP'
 
-		$app_env = AppEnvironment.for_process($service)
+		#$app_env = AppEnvironment.for_process($service)
 
 		# in_queue = $app_env.in_queue env('in_queue')
 		# $max_fails = $app_env.env('max_fails')
 		# $max_fails = 10 if $max_fails.nil?
 		# $delay_time = $app_env.env('delay_time')
 		# $delay_time = 120 if $delay_time.nil?
-		if ENV['testing'].nil?
-			if $connection.nil?
-				$connection = Bunny.new($sys_env.amqp)
-				$connection.start
-			end
-		end
+		# if ENV['testing'].nil?
+		# 	if $connection.nil?
+		# 		$connection = Bunny.new($sys_env.amqp)
+		# 		$connection.start
+		# 	end
+		# end
 
 
-		@dispatch_queue = DispatchQueue.new($connection, $app_env.in_queue)
-		$log = VsLog.new($connection)
-
+		# @in_queue = DispatchQueue.new($connection, $app_env.in_queue)
+		# $log = VsLog.new($connection)
 
 	end
 
@@ -96,8 +100,8 @@ class DeliveryManager
 	def process_queue()
 		$log.info "     IDS-DeliveryManager is starting"
 		begin
-			$log.info "[x]  DeliveryManager version #{VERSION} waiting for job on #{@dispatch_queue.queue.name}"
-			@dispatch_queue.queue.subscribe(:manual_ack => true,:block => true) do |delivery_info, properties, body|
+			$log.info "[x]  DeliveryManager version #{VERSION} waiting for job on #{@in_queue.queue.name}"
+			@in_queue.queue.subscribe(:manual_ack => true,:block => true) do |delivery_info, properties, body|
 				@qd = JSON.parse(body)
 				#$log.debug "Image_type: #{@qd['image_type']}"
 				#$log.debug "Report_type: #{@qd['report_type']}"
@@ -105,13 +109,13 @@ class DeliveryManager
 				start_time = Time.now
 				process_job(@qd)
 				$log.debug "\nTime to manage: #{(Time.now - start_time).in_milliseconds}ms\n"
-				@dispatch_queue.ack(delivery_info.delivery_tag)
+				@in_queue.ack(delivery_info.delivery_tag)
 				$log.debug "Finished Job #{@qd['jpb_id']} -  #{@qd['pat_name']} - #{@qd['mrn']}"
-				$log.debug "[x]  DeliveryManager version #{VERSION} Waiting for job on #{@dispatch_queue.queue.name}"
+				$log.debug "[x]  DeliveryManager version #{VERSION} Waiting for job on #{@in_queue.queue.name}"
 			end
 		rescue Interrupt => ex
-			@dispatch_queue.ch.close
-			$connection.close
+			@in_queue.ch.close
+			@config.amqp_connection.close
 		rescue Exception => ex
 			$log.warn "   ProcessQueue exception #{ex.inspect}"
 		end
@@ -190,7 +194,8 @@ class DeliveryManager
 	def queue_delivery(raw, doc, context)
 		class_dps = DeliveryProfile.by_doc_class(doc.type_info, raw.entity) #, [context])
 		type_dps = DeliveryProfile.by_doc_type(doc.type_info, raw.entity) #, [context])
-		entity = raw.entity
+    entity = raw.entity
+
 		if(class_dps.count == 0)
 			if type_dps.count == 0
 	#if entity has a primary device check if this document has been delivered to it

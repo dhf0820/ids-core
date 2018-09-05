@@ -3,8 +3,8 @@ require './models/mail_delivery'
 
 FactoryBot.define do
 	factory :mail_dlv, class: MailDelivery do
-		name 'Mail'
-		description 'Daily MAIL delivery'
+		name { 'Mail' }
+		description { 'Daily MAIL delivery' }
 		after(:build) do |md|
 			md.status = {}
 			md.owner = {}

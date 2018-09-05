@@ -1,0 +1,10 @@
+lib/report-reader/exceptions.rb ede96a4485eaf43baf61809466856d0749aed88b
+lib/report-reader/processor.rb 5f5fdba3f800755e990e543108720924df2da80f
+lib/report-reader/report.rb 0270fddcc3c46a38d7001a7db574e3a3d75f9ad0
+lib/report-reader/string_ext.rb cbdaef1dd68fb84426a269e20ed68d35fe467e01
+lib/report-reader/data_element.rb 01a09ed49dc298c7e6d32395926c02db2dcf54ed
+lib/report-reader/document.rb 6ab53a5fa7486730e386d5b874cc084f6c269cab
+lib/report-reader/descriptor.rb 4b4a1d98f3fc32e582394d4ec82b4b8b0df1e67f
+lib/report-reader/page.rb c232f271006016124bd8e8422e4a52b5c4fed6c8
+lib/report-reader/data_elements.rb f73a606c5b19ae9fe319008ff520fbfd5660e306
+lib/report-reader/config.rb 15b00987536e11777b610d5630c8f60a3170320a

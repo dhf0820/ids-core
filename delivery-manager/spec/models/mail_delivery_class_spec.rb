@@ -4,7 +4,7 @@ require './spec/factories/mail_class'
 require './spec/factories/mail_delivery'
 
 
-RSpec.describe MailDeliveryClass, type: :model, focus: true do
+RSpec.describe MailDeliveryClass, type: :model do
 	before :each do
 
 	end
@@ -41,7 +41,7 @@ RSpec.describe MailDeliveryClass, type: :model, focus: true do
 	# 	expect(mc.devices.count).to eql 2    #one is added initialy becuse it is one of the default
 	# end
 
-	# describe 'delivery queueing', focus: true do
+	# describe 'delivery queueing' do
 	# 	before :context do
 	# 		@ds = DeliverySetup.new
 	# 		@doc_class = @ds.document_class_type('consult')
