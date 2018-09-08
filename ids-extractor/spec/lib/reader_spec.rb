@@ -3,16 +3,12 @@ require './spec/utilities/test_setup'
 require './models/config.rb'
 # Time to add your specs!
 # http://rspec.info/
-describe Reader, focus: true do
+describe Reader  do
 
 	before :each do
-
 		@ts = TestSetup.new
-		@ts.create_environment
-		@ts.create_rabbit
 		@ts.create_data_dictionary
 		@ts.create_definitions
-
 		@config = Config.new()
 		@reader = Reader.new()
 	end

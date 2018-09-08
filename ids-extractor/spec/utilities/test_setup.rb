@@ -1,6 +1,6 @@
 
-require './models/app_environment'
-require './models/customer_environment'
+require '../sys_models/app_environment'
+require '../sys_models/customer_environment'
 
 class TestSetup
 
@@ -13,7 +13,12 @@ class TestSetup
 	# Should not need this as it is in db config
 	#
 	ENV['AMQP'] = 'amqp://cnctocwk:q8w3LU-Msi2Zpt-rL9sVXRcz-e8kdMSQ@donkey.rmq.cloudamqp.com/cnctocwk'
-	#ENV['AMQP'] = nil
+  #ENV['AMQP'] = nil
+  
+  def initialize
+    create_environment
+  end
+  
 	def create_environment
 
 		$cust_env = CustomerEnvironment.new
@@ -39,7 +44,7 @@ class TestSetup
     $app_env.app_name = 'test_reader'
 
 		env = $app_env.environment
-		#env['out_queue'] = 'archive_queue'
+		env['unknown_queue_name'] = 'unknowns'
 		#env['in_queue'] = 'rad'
 		#$app_env.error_queue = 'ids.reader_error'
 		#env['app_name'] = 'test_reader'
@@ -49,16 +54,17 @@ class TestSetup
 		$app_env.save
 		$app_env
 
+
 		#$remote = RemoteRepository.new
 
 
 	end
 
-	def create_rabbit
-		$connection = Bunny.new($cust_env.amqp)
-		$connection.start
+	# def create_rabbit
+	# 	$connection = Bunny.new($cust_env.amqp)
+	# 	$connection.start
 
-	end
+	# end
 
 	def create_data_dictionary
 		t = DataDictionary.new

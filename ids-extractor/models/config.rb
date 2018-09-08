@@ -1,12 +1,11 @@
 puts "Current: #{Dir.pwd}"
-#require_relative './inbound_queue'
-#require_relative './next_queue'
-require_relative '../lib/work_queue'
-require_relative './app_environment'
-require_relative './customer_environment'
-require_relative '../lib/version'
-require_relative './recognizer'
-require_relative './recognizers'
+
+require '../sys_lib/work_queue'
+require '../sys_models/app_environment'
+require '../sys_models/customer_environment'
+require './lib/version'
+require './models/recognizer'
+require './models/recognizers'
 
 #module IDSReader
 ##
@@ -39,62 +38,25 @@ require_relative './recognizers'
       @proc = @process
       @proc_env = @process.environment
 
-			# if ids.nil?
-			# 	STDERR.puts "Customer #{$customer} Environment is not setup"
-			# 	raise InvalidConfiguration.new("Customer #{$customer} environment is not setup\n")
-			# end
-			#STDERR.puts "Environment = #{ids.envs}"
-			# ids.envs.each do |key, val|
-			# 	@@current_config[key.to_sym] = val
-			# 	STDERR.puts "#{key} : #{val}"
-			# end
 
-			# rabbit = @proc.amqp
-			# if rabbit.nil?
-			# 	puts "!!!! Using local AMQP server "
-			# end
-			# $amqp_connection = Bunny.new(rabbit)
-			# STDERR.puts "AMQP Connection: #{$amqp_connection.inspect}"
-			# $amqp_connection.start
-			#
-			# @proc.amqp_connection = $amqp_connection
-			# #@@current_config[:amqp_connection] = $amqp_connection
-			#
-			# @proc.amqp_name = rabbit.split('/')[3]
-			# #@@current_config[:amqp_connection_name] = $amqp_connection_name
-			#
 
 			amqp_connection = make_rabbit_connection
 
-			$log = VsLog.new(amqp_connection)
+			$log = VsLog.new()
 
-			#STDERR.puts "$log: #{$log.inspect}"
-
-			$log.info "#{@service_name} version #{VERSION} is starting using #{amqp_name}"
-
-
-			# $log.debug "Getting App #{$service} environment"
-			# env = Environment.for_process($service.to_sym)
-			# if env.nil?
-			# 	$log.fatal "App #{$service} Environment is nill"
-			# 	raise InvalidConfiguration.new( "\nThe [#{$service}] process is not configured in the Environment database. Please do so and restart.\n")
-			# end
-			#
-			# env.envs.each do |key, val|
-			# 	@@current_config[key.to_sym] = val
-			# end
-			#
-			# next_process =
-      # 	#puts "creating inbound queue: #{inqueue_name}"
-			@in_queue =  WorkQueue.new(amqp_connection, in_queue_name)
-			@out_queue = WorkQueue.new(amqp_connection, out_queue_name)
-			# $next_queue = NextQueue.new($amqp_connection, next_queue)
+			@in_queue =  WorkQueue.new( in_queue_name)
+			@out_queue = WorkQueue.new( out_queue_name)
+      @unknown_queue = WorkQueue.new(unknown_queue_name)
+      # $next_queue = NextQueue.new($amqp_connection, next_queue)
 			# add(:next_queue, $next_queue)
+
 
 			DataElements.new
 			load_descriptor_list
 
-			x = Recognizers.load_all #new(  )
+      x = Recognizers.load_all #new(  )
+      $log.info "#{@service_name} version #{VERSION} is starting using #{amqp_name}"
+
 		end
 
     def make_rabbit_connection
@@ -324,8 +286,8 @@ require_relative './recognizers'
 
         #ordered list of valid descriptors.  Use this list to check current document for each possible recognizer in the proper order.
     def self.descriptor_keys
-
-			@@config.proc_env[:descriptor_keys]
+      @@config.descriptor_keys
+			#@@config.proc_env[:descriptor_keys]
 		end
 
 
@@ -342,29 +304,29 @@ require_relative './recognizers'
 		# 	@@current_config[:next_queue]
 		# end
 
-		def init_logging
-			Logging.init %w(DEBUG9 DEBUG8 DEBUG7 DEGUB6 DEBUG5 DEBUG4 DEBUG3 DEBUG2 DEBUG1 DEBUG INFO WARN ERROR FATAL)  if $logging_initialized.nil?
-			$logging_initialized = true
-			Logging.logger.root.level = :debug4
-			@log_file = @base_path + @config['log_file']
-			Logging.logger.root.appenders = Logging.appenders.rolling_file('jsonlog',
-			                                                               :filename => @log_file + '.json',
-			                                                               :level => :warn,
-			                                                               :age => :daily,
-			                                                               :layout => Logging.layouts.json
-			),
-				Logging.logger.root.appenders = Logging.appenders.rolling_file('rollfile',
-				                                                               :filename => @log_file,
-				                                                               :age => :daily
-				),
+		# def init_logging
+		# 	Logging.init %w(DEBUG9 DEBUG8 DEBUG7 DEGUB6 DEBUG5 DEBUG4 DEBUG3 DEBUG2 DEBUG1 DEBUG INFO WARN ERROR FATAL)  if $logging_initialized.nil?
+		# 	$logging_initialized = true
+		# 	Logging.logger.root.level = :debug4
+		# 	@log_file = @base_path + @config['log_file']
+		# 	Logging.logger.root.appenders = Logging.appenders.rolling_file('jsonlog',
+		# 	                                                               :filename => @log_file + '.json',
+		# 	                                                               :level => :warn,
+		# 	                                                               :age => :daily,
+		# 	                                                               :layout => Logging.layouts.json
+		# 	),
+		# 		Logging.logger.root.appenders = Logging.appenders.rolling_file('rollfile',
+		# 		                                                               :filename => @log_file,
+		# 		                                                               :age => :daily
+		# 		),
 
-				Logging.appenders.stdout('stdout',
-				                         :key => "value",
-				                         :level => :error
-				#:layout => Logging.layouts.pattern
-				)
-			@active_config = self
-		end
+		# 		Logging.appenders.stdout('stdout',
+		# 		                         :key => "value",
+		# 		                         :level => :error
+		# 		#:layout => Logging.layouts.pattern
+		# 		)
+		# 	@active_config = self
+		# end
 ##
 # Specify the values required to determine the proper configuration information
 # to be used.
@@ -556,9 +518,9 @@ require_relative './recognizers'
 		end
 
     def method_missing(m, *args, &block)
-      puts "There's no method called #{m} -  args: #{args}  in config -- Using app_environment."
+     # puts "There's no method called #{m} -  args: #{args}  in config -- Using app_environment."
 
-     @proc.send(m, *args, &block)
+      @proc.send(m, *args, &block)
       #@proc_env[m.to_sym]
     end
 

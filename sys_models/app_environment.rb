@@ -184,7 +184,7 @@ class AppEnvironment  < Environment
 	end
 
   def method_missing(m, *args, &block)
-    puts "There's no method called #{m} -  args: #{args}  here -- Looking in Environment hash"
+    #puts "There's no method called #{m} -  args: #{args}  here -- Looking in Environment hash"
 
     @@app_env.environment[m.to_sym]
   end

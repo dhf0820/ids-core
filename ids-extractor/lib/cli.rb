@@ -4,37 +4,37 @@ require 'mongoid'
 require 'bunny'
 require 'yaml'
 
-require_relative '../models/config'
-require_relative '../models/app_environment'
-require_relative '../models/customer_environment'
-require_relative '../models/data_dictionary'
-require_relative '../models/data_element'
-require_relative '../models/data_elements'
-require_relative '../models/descriptor'
-require_relative '../models/document_def'
+require '../sys_lib//mongo_connection'
 
-require_relative '../models/ids_error'
-require_relative '../models/inbound_queue'
-require_relative '../models/next_queue'
-require_relative '../models/page'
-require_relative '../models/processor'
-require_relative '../models/queue_processor'
-require_relative '../models/recognizer'
-require_relative '../models/recognizers'
-require_relative '../models/report'
-require_relative '../models/unknown_queue'
-require_relative '../models/updateable'
+require './models/config'
+require './models/page'
+require './models/processor'
+require './models/queue_processor'
+require './models/recognizer'
+require './models/recognizers'
+require './models/report'
+require './models/data_dictionary'
+require './models/data_element'
+require './models/data_elements'
+require './models/descriptor'
+require './models/document_def'
+
+
+require '../sys_models/app_environment'
+require '../sys_models/customer_environment'
+
+require '../sys_models/ids_error'
+require '../sys_lib/work_queue'
+require '../sys_models/updateable'
 
 
 require_relative './ids-reader'
 require_relative './pdf2_text.rb'
 require_relative './version'
 require_relative './string_ext'
-require_relative './vs_log'
 
 
 
-require_relative './mongo_connection'
 
 #module IDSReader
 	class CLI

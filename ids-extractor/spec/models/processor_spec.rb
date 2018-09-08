@@ -1,7 +1,8 @@
 require './spec/utilities/test_setup'
 require './models/config.rb'
+require 'logging'
 
-describe Processor, focus: true do
+describe Processor do
 
   before :each do
 
@@ -12,16 +13,19 @@ describe Processor, focus: true do
 
     @config = Config.new()
     @reader = Reader.new()
-    @log = Logging::Logger["processor::test"]
+
+    @logger = Logging::Logger["processor_test"]
+    #@logger.add_appenders  Logging.appenders.stdout #, Logging.appenders.file('example.log')
+    #@logger.info "   @@@ This is a test"
     @processor = @reader.processor
   end
   
-#   it "should log properly" do
-#     expect(@log.debug( "should fail")).to be false
-#     @log.level=:debug
-#     expect(@log.debug("This is a Debug Message")).to be true
-# #    @log_output.readline.should == 'Test'
-#   end
+  it "should log properly" do
+    #expect(@logger.debug( "should fail")).to be false
+    @logger.level=:debug
+    expect(@logger.debug("This is a Debug Message")).to be true
+    #expect(@log_output.readline).to eql 'Test'
+  end
 #
   it "should list all valid descriptors" do
       expect(@processor.descriptor_keys).to eql ['consult_a55', 'mercy_lab', 'sample_descriptor']
@@ -40,24 +44,24 @@ describe Processor, focus: true do
     expect(@processor.process_document).to eql 1
   end
 
-  it "should process a provided file immediately test 1", focus: true do
+  it "should process a provided file immediately test 1" do
     #expect(@processor.process_file("./spec/fixtures/processors/test_reader/test/test_data/test1.txt")).to eql 1
 	  expect(@processor.process_file("./samples/doc-lab1.pdf.txt")).to eql 1
   end
   #
-  # it "should process a buffer of text immetiately", focus: true do
+  # it "should process a buffer of text immetiately" do
   #
   #   buffer = File.read("./spec/fixtures/processors/test_reader/test/test_data/consult.pdf.txt")
   #   expect(@processor.process_buffer(buffer).reports.count).to eql 1
   # end
   #
-  # it "should find descriptor information 56", focus: true do
+  # it "should find descriptor information 56" do
   #   expect(@processor.descriptor_list).to eql  [ 'consult_a55', 'test_er']
   #
   # end
   #
   #
-  # it "should accept and process a document as a parameter", focus: true do
+  # it "should accept and process a document as a parameter" do
   #   expect(@processor.process_document("./spec/fixtures/processors/test_reader/test/test_data/test1.txt")).to eql 1
   # end
 

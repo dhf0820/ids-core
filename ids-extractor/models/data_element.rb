@@ -1,4 +1,4 @@
-require 'pry'
+
 #module IDSReader
   class DataElement
     attr_accessor :length, :name, :element_type, :value, :picture

@@ -14,11 +14,12 @@ ENV['MONGO_ENV'] = $mongo_env = 'test'
 ENV['CUSTOMER'] ='test'
 ENV['SERVICE'] = 'reader'
 
-require './lib/mongo_connection'
+require '../sys_lib/mongo_connection'
 #require './lib/db_connection'
 
-$:.unshift(File.dirname(__FILE__) + '/../lib')
-$:.unshift(File.dirname(__FILE__) + '/../models')
+$:.unshift(File.dirname(__FILE__) + './lib')
+$:.unshift(File.dirname(__FILE__) + './models')
+$:.unshift(File.dirname(__FILE__) + '../sys_models')
 require 'thread'
 require 'ids-reader'
 #include IDSReader

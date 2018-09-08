@@ -1,5 +1,5 @@
 require './lib/cli'
-describe CLI, focus: true do
+describe CLI do
 
 
 

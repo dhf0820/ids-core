@@ -1,5 +1,5 @@
 #require File.dirname(__FILE__) + '/../../spec_helper.rb'
-require 'pry'
+
 require './spec/utilities/test_setup'
 require './models/config.rb'
 
@@ -66,7 +66,7 @@ describe Report do
       expect(@document.report(0).to_xml).to match /<report>/
     end
 
-    it 'should return the value of a field by name- 33', focus: true do
+    it 'should return the value of a field by name- 33' do
       rep = @document.report(0)
 #binding.pry
       expect(rep.field(:mrn)).to eql "00714776"

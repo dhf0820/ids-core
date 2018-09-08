@@ -143,7 +143,7 @@ describe Descriptor do
     expect(@d.skip(:number => 2)).to eql [1,12]
   end
 
-  it "should extract data using regex", focus: true do
+  it "should extract data using regex" do
 	  x = @d.field('Account#:', 'acct_num', :regex => /\d+/ )
 	#  binding.pry
     expect(@d.extract_regex(:mrn, /\s*(\d+)/, :row=>1, :column=>9)).to eql "123"

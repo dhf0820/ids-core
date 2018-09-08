@@ -18,7 +18,7 @@ class Recognizers
 #
 		def self.load_all
 			Config.descriptor_keys.each do |key|   # Only descriptors required by this reader
-				d = DocumentDef.by_name(key)
+        d = DocumentDef.by_name(key)
 				Recognizers[d['name'].to_sym]   =  Recognizer.new(d['name'], d['document_type'], d['definition'])
 				File.open(d['name'] + ".rb", 'w'){|f| f.write(d['definition'])}
 				code_name = "./#{d['name']}.rb"

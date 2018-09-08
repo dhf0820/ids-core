@@ -10,7 +10,7 @@ require 'bunny'
 
   
 #  require 'fileutils'
-  require 'logging'
+ # require 'logging'
 
 require './models/config.rb'
 require './models/exceptions.rb'
@@ -22,7 +22,7 @@ require './models/page.rb'
 require './models/processor.rb'
 require './models/report.rb'
 require './models/data_elements.rb'
-require './models/environment'
+require '../sys_models/environment'
 require './models/exceptions'
 require './models/document_def'
 require './models/recognizers'
@@ -30,7 +30,7 @@ require './models/recognizer'
 
 require './lib/string_ext.rb'
 
-require './lib/vs_log'
+require '../sys_lib/vs_log'
 
 #module IDSReader
   FORM_FEED_CHAR = "\f"

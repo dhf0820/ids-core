@@ -14,7 +14,7 @@ require_relative '../lib/ids-reader'
       #@config = config
 #      mode = @config.runtime_mode
 
-      @log = Logging::Logger[ "Document"] ##{@config.processor}::document"]
+     # @log = Logging::Logger[ "Document"] ##{@config.processor}::document"]
 
 
       #log = Logger.new(@config.log_file, shift_age = 7, shift_size = 1048576)
@@ -275,7 +275,7 @@ require_relative '../lib/ids-reader'
           begin
             r.extract_data
           rescue NoMethodError => e
-            @log.error "Extract NoMethod error #{e}"
+            #@log.error "Extract NoMethod error #{e}"
             raise ReportReader::ExtractError.new(e)
 #            raise ReportReader::ExtractError.new(e.msg)
           end

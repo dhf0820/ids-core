@@ -1,5 +1,5 @@
-require './models/updateable'
-require './models/ids_error'
+require '../sys_models/updateable'
+require '../sys_models/ids_error'
 
 #module IDSReader
 	class DataDictionary

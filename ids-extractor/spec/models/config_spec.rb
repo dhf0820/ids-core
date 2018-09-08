@@ -2,30 +2,28 @@
 #config_path = File.dirname(__FILE__) + "fixtures/test_reader.yml"
 #env_name = 'READER_TEST'
 #include IDSReader
-require './models/inbound_queue'
-require './models/next_queue'
+
 require './spec/utilities/test_setup'
 
 
 
 describe Config do
-	before :each do
+  before :each do
 		@ts = TestSetup.new
-		@ts.create_environment
-		#@ts.create_rabbit
-		@ts.create_data_dictionary
-		@ts.create_definitions
 
+		@ts.create_data_dictionary
+    @ts.create_definitions
+
+    @confog = Config.new
 		options = {}
 		options[:reader] = 'reader'
-		config = Config.new()
 		#   Reader.new(config)
-		#Reader.new('reader')
+    #Reader.new('reader')
 	end
 
   describe "initialization" do
 
-    it "should return the current configuration", focus: true do
+    it "should return the current configuration" do
 	    expect(Config.active.process).to eql 'reader'
       #expect{Reader.new()}.to_not raise_error  #(InvalidConfiguration)
     end
@@ -48,10 +46,10 @@ describe Config do
 		expect(DocumentDef.count).to be > Config.descriptor_keys.count
     end
 
-	it 'should load all document Recognizers' do
-		expect(Config.recognizers.count).to eql 3
-		expect(Config.recognizers[:consult_a55].document_type).to eql 'ConsultA55'
-	end
+    it 'should load all document Recognizers' do
+      expect(Config.recognizers.count).to eql 3
+      expect(Config.recognizers[:consult_a55].document_type).to eql 'ConsultA55'
+    end
 
   end
 
