@@ -1,6 +1,7 @@
 puts "Current: #{Dir.pwd}"
-require_relative './inbound_queue'
-require_relative './next_queue'
+#require_relative './inbound_queue'
+#require_relative './next_queue'
+require_relative '../lib/work_queue'
 require_relative './app_environment'
 require_relative './customer_environment'
 require_relative '../lib/version'
@@ -85,8 +86,8 @@ require_relative './recognizers'
 			#
 			# next_process =
       # 	#puts "creating inbound queue: #{inqueue_name}"
-			@in_queue =  InboundQueue.new(amqp_connection, in_queue_name)
-			@out_queue = NextQueue.new(amqp_connection, out_queue_name)
+			@in_queue =  WorkQueue.new(amqp_connection, in_queue_name)
+			@out_queue = WorkQueue.new(amqp_connection, out_queue_name)
 			# $next_queue = NextQueue.new($amqp_connection, next_queue)
 			# add(:next_queue, $next_queue)
 

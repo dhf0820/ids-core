@@ -1,7 +1,5 @@
-require './models/delivery_class'
-require './models/delivery_device'
-
-
+require '../sys_models/delivery_class'
+require '../sys_models/delivery_device'
 
 
 class DeliveryRequest

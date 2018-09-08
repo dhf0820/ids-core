@@ -1,0 +1,3 @@
+class SaveFailure < StandardError
+
+end

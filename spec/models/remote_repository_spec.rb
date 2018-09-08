@@ -2,7 +2,7 @@
 require 'rspec'
 require 'spec_helper'
 
-require './spec/utilities/delivery_setup'
+require './spec/utilities/test_setup'
 require './models/ids_error'
 require './models/app_environment'
 require './models/customer_environment'
@@ -12,11 +12,11 @@ require './models/remote_repository'
 RSpec.describe RemoteRepository, type: :model do
 	#let(:mail)  {FactoryBot.build(:mail)}
 	before :each do
-		@ds = DeliverySetup.new
-    @ds.create_environment
+		@ds = TestSetup.new
+		#@ds.create_environment
+    #@ds.create_rabbit
+    
     @config = Config.new
-    @remote = @config.remote
-		#@ds.create_rabbit
 	end
 
 	after :each do
@@ -25,21 +25,21 @@ RSpec.describe RemoteRepository, type: :model do
 
 	it 'should find patient by mrn' do
 		#doc = $remote.
-		pat = @remote.patient_by_mrn('654321')
-		expect(pat.mrn).to eql '654321'
+		pat = $remote.patient_by_mrn('te10151')
+		expect(pat.mrn).to eql 'te10151'
 	end
 
 
 	it 'should raise error if remote patient does not exist'do
 		#expect{$remote.patient_by_mrn('0000')}.to raise_exception(IdsError, 'Patien mrn 0000 not found')
-		expect(@remote.patient_by_mrn('0000')).to be_nil
+		expect($remote.patient_by_mrn('0000')).to be_nil
 	end
 
-	# it 'should create  new patient', focus: true do
+	# it 'should create  new patient' do
 	# 	pat = Patient.new
 	#
 	# end
-	# it 'should find DeliveryClass by id', focus: true do
+	# it 'should find DeliveryClass by id' do
 	# 	mail = DeliveryClass.new(name: 'MAIL', description: 'Delivery daily via US MAIL', status: {state: :active})
 	# 	expect(DeliveryClass.find(mail.id).id).to eql(mail.id)
 	# end

@@ -1,0 +1,42 @@
+source 'https://rubygems.org'  do
+	ruby '2.4.2'
+  # Activerecord support
+  gem 'activerecord' , '~> 5.0', '>= 5.0.0.1'
+  #gem 'pg' #, '~> 0.18.4'
+  #gem "rest-client"
+  gem "json"
+  gem "colorize"
+  gem "prawn"
+  gem 'bunny'
+
+  gem 'mongoid', '~> 7'
+  gem 'bson_ext'
+  gem 'activesupport'
+  gem 'rest-client'
+
+  #gem 'ruby-filemagic'
+  # gem 'refile'
+  # gem "refile", require: "refile/rails"
+  # gem "refile-mini_magick"
+  
+  # S3 direct storage
+  #gem 'aws-sdk', '~> 2'
+
+  group :development, :test do
+  	gem 'pry'
+  	gem 'pry-coolline'
+    gem 'guard-rspec'
+    gem 'guard-bundler'
+    #gem 'pry-byebug'
+    gem 'rspec'
+    gem 'machinist'
+    gem "faker"
+    gem "factory_bot"
+    gem "database_cleaner"
+    #gem 'database_cleaner-mongoid'
+    #gem 'minitest', '~> 5.1'
+    #
+  end
+
+
+end

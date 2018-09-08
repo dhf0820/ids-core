@@ -1,0 +1,33 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: image-manager
+  labels:
+    app: image-manager
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: image-manager
+  template:
+    metadata:
+      labels:
+        app: image-manager
+    spec:
+      containers:
+      - name: image-manager
+        image: dhf0820/image-manager:0.4.11
+        env:
+        - name: MONGO_ENV
+          value: 'atlas_dev'
+        - name: SERVICE
+          value: 'image-manager'
+        - name: CUSTOMER
+          value: 'pphs'
+        - name: IDS_LOCAL_URI
+          value: 'mongodb://localhost:27017/ids_dev'
+        - name: IDS_ATLAS_DEV_URI
+          value: "mongodb://ids_user:Enyedi57_1@ids-dev0-shard-00-00-owaps.mongodb.net:27017,ids-dev0-shard-00-01-owaps.mongodb.net:27017,ids-dev0-shard-00-02-owaps.mongodb.net:27017/ids_dev?ssl=true&replicaSet=IDS-dev0-shard-0&authSource=admin"
+      imagePullSecrets:
+      - name: regcred

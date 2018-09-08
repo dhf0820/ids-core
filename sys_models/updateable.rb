@@ -33,14 +33,14 @@ module Updateable
 		# if self.updated[:user_id].nil?
 		# 	puts "Updateed_by not set!"
 		# 	return false
-		# end
+    # end
+    #Mongoid.default_session.options[:database] 
 		self.updated = {} if self.updated.nil?
-    self.updated[:on] = DateTime.now
-    binding.pry
+		self.updated[:on] = DateTime.now
 		if self.new_record
 			self.created = self.updated
 		end
-		super
+   super
 	end
 
 end

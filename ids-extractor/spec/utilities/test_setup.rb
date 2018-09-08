@@ -32,16 +32,19 @@ class TestSetup
 		$app_env.customer = ENV['CUSTOMER']
     $app_env.process = ENV['SERVICE']
     $app_env.in_queue_name = 'test'
+    $app_env.out_queue_name = 'archive'
     $app_env.app_name = 'test_reader'
     $app_env.log_topic = 'rdr'
     $app_env.log_key = 'test_rdr'
+    $app_env.app_name = 'test_reader'
+
 		env = $app_env.environment
-		env['out_queue'] = 'archive_queue'
-		env['in_queue'] = 'rad'
+		#env['out_queue'] = 'archive_queue'
+		#env['in_queue'] = 'rad'
 		#$app_env.error_queue = 'ids.reader_error'
-		env['app_name'] = 'test_reader'
-		env['log_topic'] = 'rdr'
-		env['log_key']  = 'test_rdr'
+		#env['app_name'] = 'test_reader'
+		#env['log_topic'] = 'rdr'
+		#env['log_key']  = 'test_rdr'
 		env['descriptor_keys'] = ['consult_a55', 'mercy_lab', 'sample_descriptor']
 		$app_env.save
 		$app_env

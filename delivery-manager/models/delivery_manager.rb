@@ -48,50 +48,7 @@ class DeliveryManager
 		@queued = {}
 		@entities = {}
 		@no_deliveries = {}
-
-		# $service = ENV['SERVICE']
-		# STDERR.puts " $$$ $service = #{$service}"
-		# if $service.nil?
-		# 	$service = 'dispatcher'
-		# end
-		# $customer = ENV['CUSTOMER']
-		# STDERR.puts " $$$ $customer = #{$customer}"
-
-		# if $customer.nil?
-		# 	$customer = 'ids'
-		# end
-
-		# STDERR.puts "$$$CUSTOMER = #{$customer}\n\n"
-		# #$db_connection = DbConnection.new (env['PG_ENV'])
-		# $sys_env = CustomerEnvironment.for_customer($customer)
-
-		# if $sys_env.nil?
-		# 	abort("ids environment is not set up\n")
-		# end
-
-		#$ids_amqp = $ids.env 'AMQP'
-
-		#$app_env = AppEnvironment.for_process($service)
-
-		# in_queue = $app_env.in_queue env('in_queue')
-		# $max_fails = $app_env.env('max_fails')
-		# $max_fails = 10 if $max_fails.nil?
-		# $delay_time = $app_env.env('delay_time')
-		# $delay_time = 120 if $delay_time.nil?
-		# if ENV['testing'].nil?
-		# 	if $connection.nil?
-		# 		$connection = Bunny.new($sys_env.amqp)
-		# 		$connection.start
-		# 	end
-		# end
-
-
-		# @in_queue = DispatchQueue.new($connection, $app_env.in_queue)
-		# $log = VsLog.new($connection)
-
 	end
-
-
 
 	def run
 		process_queue
