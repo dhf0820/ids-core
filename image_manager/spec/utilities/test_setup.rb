@@ -46,7 +46,9 @@ class TestSetup
 		$app_env.error_queue_name = 'ids.image_error'
 		$app_env.app_name = 'test_image'
 		$app_env.log_topic = 'img'
-		$app_env.log_key  = 'img'
+    $app_env.log_key  = 'img'
+    env = $app_env.environment
+    env[:unknown_queue_name] = 'unknown'
 		$app_env.save
 		$app_env
 
