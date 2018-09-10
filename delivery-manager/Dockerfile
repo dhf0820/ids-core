@@ -9,13 +9,22 @@ ENV LANG C.UTF-8
 ENV APP_BASE /app
 ENV APP_NAME='DeliveryManager'
 RUN mkdir $APP_BASE
+RUN mkdir $APP_BASE/sys_models
+RUN mkdir $APP_BASE/sys_lib
+RUN echo $APP_BASE
+
 WORKDIR $APP_BASE
-ENV APP_HOME ./app
-RUN mkdir sys_models
-RUN mkdir sys_lib
-COPY ../sys_lib/* $APP_BASE/sys_lib
-COPY ../sys_models/* $APP_BASE/sys_models
+RUN mkdir $APP_BASE/delivery_manager
+ENV APP_HOME $APP_BASE/delivery_manager
+RUN echo $APP_HOME
 WORKDIR $APP_HOME
+
+RUN echo $APP_HOME
+WORKDIR $APP_BASE
+#COPY ./sys_lib $APP_BASE/sys_lib
+#COPY ./sys_models $APP_BASE/sys_models/
+WORKDIR $APP_HOME
+
 COPY Gemfile* ./
 RUN bundle install
 
