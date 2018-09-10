@@ -6,11 +6,16 @@ RUN apk update \
     && apk add build-base libffi-dev
 
 ENV LANG C.UTF-8
-ENV APP_HOME /app
+ENV APP_BASE /app
 ENV APP_NAME='DeliveryManager'
-RUN mkdir $APP_HOME
+RUN mkdir $APP_BASE
+WORKDIR $APP_BASE
+ENV APP_HOME ./app
+RUN mkdir sys_models
+RUN mkdir sys_lib
+COPY ../sys_lib/* $APP_BASE/sys_lib
+COPY ../sys_models/* $APP_BASE/sys_models
 WORKDIR $APP_HOME
-
 COPY Gemfile* ./
 RUN bundle install
 
