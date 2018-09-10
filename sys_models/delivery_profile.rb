@@ -22,9 +22,9 @@ class DeliveryProfile
 		dp = DeliveryProfile.new()
 		dp.owner = owner.entity
 		dp.delivery_context = delivery_context
-		dp.doc_type = doc_type.info #{ids_id: type_info[:ids_id], code: type_info[:code]}
+		dp.doc_type = doc_type.summary #{ids_id: type_info[:ids_id], code: type_info[:code]}
 		#dp.doc_class = {id: type_info[:class_id], code: type_info[:class_code]}
-		dp.device = delv_device.summary
+		dp.device = delv_device
 		dp
 	end
 	#

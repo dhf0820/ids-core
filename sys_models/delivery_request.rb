@@ -33,7 +33,7 @@ class DeliveryRequest
 	end
 
 	def self.queue_default(owner, cdoc)
-		#puts "DeliveryRequest#queue_default: #{cdoc.summary}"
+		puts "DeliveryRequest#queue_default: #{cdoc.summary}"
 		if owner[:primary_device]
 			primary_device = owner[:primary_device][:device_id]
 		else
@@ -43,7 +43,8 @@ class DeliveryRequest
 			device = MailDeliveryClass.default_device
 		else
 			device = DeliveryDevice.find(owner[:primary_device][:device_id])
-		end
+    end
+    puts "  Queue to device: #{device.name} for #{owner[:name]}"
 		device.queue(cdoc, owner)  #  Really do not need owner as device belongs to the owner
 	end
 

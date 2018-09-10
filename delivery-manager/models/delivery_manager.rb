@@ -7,7 +7,7 @@ require 'colorize'
 require 'yaml'
 require 'bunny'
 
-require './lib/mongo_connection'
+#require '../sys_lib/mongo_connection'
 require './models/config'
 
 # require './models/patient.rb'
@@ -16,32 +16,33 @@ require './models/config'
 # require './models/archived_image.rb'
 # require './models/visit.rb'
 # require './models/document_type.rb'
-require './models/raw_name.rb'
-require './models/pending_delivery.rb'
-require './models/physician.rb'
-require './models/practice'
-require './models/delivery_request.rb'
-require './models/pending_delivery'
-require './models/app_environment'
-require './models/customer_environment'
-require './models/delivery_device.rb'
-require './models/delivery_class.rb'
+require '../sys_models/raw_name.rb'
+
+require '../sys_models/physician.rb'
+require '../sys_models/practice'
+require '../sys_models/delivery_request.rb'
+require '../sys_models/pending_delivery'
+require '../sys_models/app_environment'
+require '../sys_models/customer_environment'
+require '../sys_models/delivery_device.rb'
+require '../sys_models/delivery_class.rb'
 #require './models/delivery_job.rb'
-require './models/environment'
+require '../sys_models/environment'
 #
-require './lib/vs_log'
-require './lib/in_queue.rb'
+require '../sys_lib/vs_log'
+#require './lib/in_queue.rb'
 # require './lib/deliver_queue.rb'
 # require './lib/dispatch_failure.rb'
-# require "./lib/work_queue.rb"
+require "../sys_lib/work_queue.rb"
 
 require './lib/version'
-require './models/ids_error'
+require '../sys_models/ids_error'
 
 class DeliveryManager
 
   def initialize()
-    @config = Config.new
+   
+    @config = Config.active
 
     @in_queue = @config.in_queue
 
@@ -89,7 +90,8 @@ class DeliveryManager
 		@doc = ClinicalDocument.find(@doc_id)
 		@queued = {}
 		@entities = {}
-		@no_deliveries = {}
+    @no_deliveries = {}
+    queue_chart_archive(@doc)
 		begin
 			primary_physicians = %w(ordering_physician consulting_physician referring_physician pcp)
 
@@ -109,8 +111,8 @@ class DeliveryManager
 				process_entity(@doc, @data["phy-#{i}"], :cc) if @data["phy-#{i}"]
 			end
 		rescue DispatchFailure => e
-			puts "DispatchFailure:  #{e.message}"
-			#$log.warn "DispatchFailure:  #{e.message}"
+			#puts "DispatchFailure:  #{e.message}"
+			$log.warn "DispatchFailure:  #{e.message}"
 		end
 		#puts "Finished Job #{data}"
 		# $log.info "Finished Job #{data}"
@@ -158,23 +160,25 @@ class DeliveryManager
 	#if entity has a primary device check if this document has been delivered to it
 	# if no primary device, check if mail has been delivered for this document to the entity.
 				if entity['primary_device']
-					unless already_queued?(entity['primary_device'], entity, doc)
+          unless already_queued?(entity['primary_device'], entity, doc)
+            puts "Queue DEfault 1: #{entity}"
 						DeliveryRequest.queue_default(entity, doc)
 					end
 				else
-					unless already_queued_to_default?(entity, doc)
+          unless already_queued_to_default?(entity, doc)
+            puts "Queue Default 2: #{entity}"
 						DeliveryRequest.queue_default(entity, doc)
 					end
 				end
 
 				return
 			else
-				#puts "Begin delivering real document_type profile\n"
+				puts "Begin delivering real document_type profile\n"
 				deliver_profile(type_dps, doc, raw.entity, context)    #DeliveryProfile.by_doc_type(doc.type_info, raw.entity, [context]),  doc, raw.entity)
 				return
 			end
 		else
-			#puts "Begin delivering real document class profile\n"
+			puts "Begin delivering real document class profile\n"
 			deliver_profile(class_dps, doc, raw.entity, context)  #DeliveryProfile.by_doc_class(doc.type_info, raw.entity, [context]),  doc, raw.entity)
 
 		end
@@ -240,5 +244,14 @@ class DeliveryManager
 		@no_deliveries
 	end
 
+  def queue_chart_archive(doc)
+    cad = @config.chart_archive_device
+    entity = {}
+    entity[:ids_id] = nil?
+    entity[:name] = 'ChartArchive'
+    entity[:context] = "remote"
+    entity[:primary_device] = cad.summary
+    cad.queue(doc, entity)
+  end
 
 end

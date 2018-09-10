@@ -1,49 +1,70 @@
-require './spec/utilities/delivery_setup'
+require './spec/utilities/test_setup'
 require 'rspec'
 require 'spec_helper'
- require './models/delivery_profile'
-#require './models/delivery_manager'
-require './models/delivery_request'
+ require '../sys_models/delivery_profile'
+require './models/delivery_manager'
+require '../sys_models/delivery_request'
 # require './models/document_class'
-require './models/document_type'
-require './models/patient'
-require './spec/factories/patient'
-require './spec/factories/visit'
+require '../sys_models/document_type'
+require '../sys_models/patient'
+#require './spec/factories/patient'
+#require './spec/factories/visit'
 # require './models/delivery_class'
 # require './models/delivery_device'
 # require './models/practice'
 # require './models/physician'
 # require './models/guid'
-require './spec/utilities/delivery_setup'
+require './spec/utilities/test_setup'
 
 RSpec.describe DeliveryProfile, type: :model do
 
 
 	describe 'Practices default to practice primary delivery ' do
 		before :all do
-			@ds = DeliverySetup.new
+      @ds = TestSetup.new
+      @config = Config.new
 			@doc_class = @ds.document_class_type('consult')
 			@doc_class.save
 			@tefrench = @ds.create_patient
-			@visit = @ds.create_visit('tfv1234', @tefrench)
-			@doc_type = DocumentType.find @doc_class.document_types[0][:id]
-			@type_info = {id: @doc_type.id, code: @doc_type.code, class_id: @doc_type.document_class[:id],
-			              class_code: @doc_type.document_class[:code]}
+      @visit = @ds.create_visit('tfv1234', @tefrench)
+			@doc_type = DocumentType.find @doc_class.document_types[0][:ids_id]
 
-			@clin_doc = @ds.clinical_document(@tefrench, @visit, @type_info)
+
+			@clin_doc = @ds.clinical_document(@tefrench, @visit, @doc_type)
 			#ClinicalDocument.new(patient: @tefrench, type_id: @doc_class.document_types[0][:id])
-			@doc_version = @ds.document_version(@clin_doc, nil)
-			@cdoc = @ds.clinical_document(@tefrench, @visit, @type_info)
+
+			#@cdoc = @ds.clinical_document(@tefrench, @visit, @type_info)
 
 		 end
 
-		# it 'Practice wanting mail should have a primary delivery_class_id of mail.id' do
-		# 	#ds = DeliverySetup.new
-		# 	prac = @ds.create_mail_practice
-		# 	expect(prac.primary_device[:id]).to eq MailDeliveryClass.default_device.id
-		# end
+		it 'Practice wanting mail should have a primary delivery_class_id of mail.id' do
+			#ds = DeliverySetup.new
+      prac = @ds.create_mail_practice
 
-		# it "should queue nightly mail for a practice with no profile and primary delivery = Mail" do
+			expect(prac.primary_device[:device_id]).to eq MailDeliveryClass.default_device.id.to_s
+		end
+
+		it "should queue nightly mail for a practice with no profile and primary delivery = Mail", focus: true do
+			#dm = DeliveryManager.new(@cdoc)
+			#
+			prac = @ds.create_mail_practice
+			of = @ds.create_fax_device(prac.summary)
+			prac.add_device(of, false)
+			raw = RawName.lookup(prac.name)
+      raw.link(prac.name, prac.id, :practice)
+
+			dp = DeliveryProfile.create_type_profile(@doc_type, prac.primary_device, prac, [:cc, :generating])
+      dp.save
+ 
+      cdoc = @ds.clinical_document(@tefrench, @visit, @doc_type)
+
+
+      dm = DeliveryManager.new
+      dm.queue_delivery(raw, cdoc, [:cc, :generating])
+      expect(DeliveryRequest.count).to eql 1
+    end
+    
+    # it "should queue nightly mail for a practice with no profile and primary delivery = Mail" do
 		# 	#dm = DeliveryManager.new(@cdoc)
 		# 	#
 		# 	prac = @ds.create_mail_practice
@@ -51,9 +72,9 @@ RSpec.describe DeliveryProfile, type: :model do
 		# 	prac.add_device(of, false)
 		# 	raw = RawName.lookup(prac.name)
 		# 	raw.link(prac.name, prac.id, :practice)
-		# 	dp = DeliveryProfile.add_profile(@type_info, prac.primary_device, prac.summary, [:cc, :generating])
+		# 	dp = DeliveryProfile.creaste_type_profile(@type_info, prac.primary_device, prac.summary, [:cc, :generating])
 		# 	dp.save
-		#
+		# binding.pry
 		# 	#cdoc = @ds.clinical_document(1, 2, @doc_type)
 		# 	#prac.deliver_document(@cdoc.id, :cc)
 		# end

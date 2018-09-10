@@ -7,7 +7,8 @@ RUN apk update \
 
 ENV LANG C.UTF-8
 ENV APP_HOME /app
-ENV APP_NAME='DeliveryManager'
+ENV APP_NAME='ids-image-manager'
+
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 

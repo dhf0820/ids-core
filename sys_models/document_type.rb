@@ -46,9 +46,9 @@ class DocumentType
 		data =  {}
 		data['ids_id'] = self.id.to_s
 		data['code'] = self.code
-		data['descruption'] =  self.description
+		data['description'] =  self.description
 		data['remote_id'] = self.remote_id.to_s
-		data['class_id']  = self.document_class[:class_id].to_s
+		data['class_id']  = self.document_class[:ids_id].to_s
 		data['class_code'] = self.document_class[:code]
 		data['class_remote_id'] = self.document_class[:remote_id].to_s
 		data

@@ -5,10 +5,15 @@ require 'rspec'
 require 'mongoid'
 #require 'active_record'
 require 'database_cleaner'
-
-
+# require File.expand_path("../../lib", __FILE__)
+# require File.expand_path("../../models", __FILE__)
 #
 ENV['MONGO_ENV'] = $mongo_env = 'test'
+ENV['CUSTOMER'] ='test'
+ENV['SERVICE'] = 'image_manager'
+
+
+
 require '../sys_lib/mongo_connection'
 
 
@@ -31,7 +36,9 @@ require 'factory_bot'
 
 $:.unshift(File.dirname(__FILE__) + './lib')
 $:.unshift(File.dirname(__FILE__) + './models')
+$:.unshift(File.dirname(__FILE__) + '../sys_lib')
 $:.unshift(File.dirname(__FILE__) + '../sys_models')
+
 require 'thread'
 #require './models/Physician'
 #include IDSReader

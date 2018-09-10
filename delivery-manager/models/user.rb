@@ -1,4 +1,4 @@
-require './models/updateable'
+require '../sys_models/updateable'
 
 class User
 	require 'json'

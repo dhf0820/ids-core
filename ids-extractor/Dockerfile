@@ -1,9 +1,9 @@
-FROM ruby:alpine3.6
+FROM ruby:alpine
 
 #RUN apt-get update -qq && apt-get install -y build-essential
 RUN apk update \
     && apk upgrade \
-    && apk add build-base postgresql-dev libffi-dev
+    && apk add build-base libffi-dev
 
 ENV LANG C.UTF-8
 ENV APP_HOME /app

@@ -88,7 +88,7 @@ class ClinicalDocument
 
 	def summary()
 		data = {}
-		data['ids_id'] = self.id
+		data['ids_id'] = self.id.to_s
 		data['remote_id'] = self.remote_id
 		data['patient'] = self.patient
 		data['visit'] = self.visit

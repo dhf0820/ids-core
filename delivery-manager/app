@@ -33,6 +33,7 @@ require './models/delivery_manager'
 
 STDERR.puts "Starting version #{VERSION} Dispatcher"
 #puts "Arguments: #{ARGV}"
+@config = Config.new
 dm = DeliveryManager.new()
 
 dm.run

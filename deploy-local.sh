@@ -2,9 +2,11 @@ SHA=$(git rev-parse HEAD)
 
 docker build -t dhf0820/delivery-manager:latest -f ./delivery-manager/Dockerfile ./delivery-manager
 docker build -t dhf0820/ids-extractor:latest -f ./ids-extractor/Dockerfile ./ids-extractor
+docker build -t dhf0820/ids-image-manager:latest -f ./ids-image-manager/Dockerfile ./ids-image-manager
 
 docker push dhf0820/delivery-manager:latest
 docker push dhf0820/ids-extractor:latest
+docker push dhf0820/ids-image-manager:latest
 
 docker tag dhf0820/delivery-manager:latest  dhf0820/delivery-manager:$SHA
 docker tag dhf0820/ids-extractor:latest  dhf0820/ids-extractor:$SHA

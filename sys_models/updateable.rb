@@ -1,46 +1,27 @@
 
 
 module Updateable
-
-	def updated_by(user_id)
-		return {} if user_id.blank?
-
-		puts "changed_by: #{user_id}"
-		user = User.find user_id
-		if user.nil?
-			return {}
+  def save
+    if self.new_record?
+			self.created = update_info(nil)
 		end
-		self.updated = {}
-		self.updated[:on] =  DateTime.now
-		self.updated[:user_id] = user.id
-		self.updated[:name] = user.full_name
-		return self.updated
-	end
+		self.updated = update_info(nil)
 
-	def created_by(user_id)
-		puts "created_by: #{user_id}"
-		return {} if user_id.blank?
-		user = User.find user_id
-		return {} if user.nil?
-		self.created = {}
-		self.created[:on] = DateTime.now
-		self.created[:user_id] = user.id
-		self.created[:name] = user.full_name
-		return self.created
-	end
-
-	def save
-		# if self.updated[:user_id].nil?
-		# 	puts "Updateed_by not set!"
-		# 	return false
-    # end
-    #Mongoid.default_session.options[:database] 
-		self.updated = {} if self.updated.nil?
-		self.updated[:on] = DateTime.now
-		if self.new_record
-			self.created = self.updated
-		end
    super
+  end
+  
+  private
+  def update_info(user_id)
+    data = {}
+    data[:on] = DateTime.now
+    unless user_id.nil?
+      user = User.find user_id
+      if user
+        data[:user_id] = user.id
+        data[:name] = user.full_name
+      end
+    end
+		data
 	end
 
 end

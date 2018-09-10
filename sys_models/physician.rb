@@ -4,7 +4,7 @@
 #require_relative 'name'
 #require_relative 'practice_summary'
 #require_relative 'device_summary'
-require '../sys_models/mail_class'
+require '../sys_models/mail_delivery_class'
 require '../sys_models/updateable'
 
 require 'date'

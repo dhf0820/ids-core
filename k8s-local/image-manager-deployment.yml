@@ -1,0 +1,34 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: image-manager
+  labels:
+    app: image-manager
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: image-manager
+  template:
+    metadata:
+      labels:
+        app: image-manager
+    spec:
+      containers:
+      - name: image-manager
+        image: dhf0820/image-manager
+        env:
+        - name: MONGO_ENV
+          value: k8s_local
+        - name: SERVICE
+          value: 'image-manager'
+        - name: CUSTOMER
+          value: 'demo'
+        - name: IDS_ATLAS_DEV_URI
+          valueFrom:
+            secretKeyRef:
+              name: dev-mongo-uri
+              key: IDS_ATLAS_DEV_URI    
+      imagePullSecrets:
+      - name: regcred

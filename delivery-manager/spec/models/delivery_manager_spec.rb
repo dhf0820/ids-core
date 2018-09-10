@@ -1,14 +1,14 @@
 require 'rspec'
 #require './spec_helper'
-require './spec/utilities/delivery_setup'
-require './models/mail_delivery_class'
-require './models/mail_delivery'
-require './models/no_delivery_class'
+require './spec/utilities/test_setup'
+require '../sys_models/mail_delivery_class'
+require '../sys_models/mail_delivery'
+require '../sys_models/no_delivery_class'
 require './models/delivery_manager'
-require './models/patient'
-require './models/clinical_document'
-require './models/environment'
-require './lib/work_queue'
+require '../sys_models/patient'
+require '../sys_models/clinical_document'
+require '../sys_models/environment'
+require '../sys_lib/work_queue'
 
 
 
@@ -20,9 +20,9 @@ RSpec.describe DeliveryManager, type: :model do
 	before :each do
 		puts "Before each"
 
-		@ds = DeliverySetup.new
-		@ds.create_environment
+		@ds = TestSetup.new
 
+    @config = Config.new
 
 		@doc_class = @ds.document_class_type('consult')
 		@doc_class.save
@@ -32,8 +32,8 @@ RSpec.describe DeliveryManager, type: :model do
 		# @type_info = {id: @doc_type.id, code: @doc_type.code, class_id: @doc_type.document_class[:ids_id],
 		#              class_code: @doc_type.document_class[:code]}
 
-		@doc_info = @doc_type.summary
-		@clin_doc = @ds.clinical_document(@tefrench, @visit, @doc_info)
+		#@doc_info = @doc_type.summary
+		@clin_doc = @ds.clinical_document(@tefrench, @visit, @doc_type)
 			#ClinicalDocument.new(patient: @tefrench, type_id: @doc_class.document_types[0][:id])
 
 
@@ -59,33 +59,33 @@ RSpec.describe DeliveryManager, type: :model do
 		# @dp.save
 		@data['cc1'] = @prac.full_name
 		@dm.process_job(@data)
-		drs = DeliveryRequest.all
-		expect(drs.count).to eql 1
+    drs = DeliveryRequest.all
+		expect(drs.count).to eql 2    # includes chartArchive
 
 	end
 
 	it 'should create delivery for cc2 in data hash' do
-		doc = ClinicalDocument.by_remote_id(114)
+		#doc = @clin_doc #ClinicalDocument.by_remote_id(114)
 		md = MailDelivery.default
 		md.entity = @prac
 		md.save
-		@dp = DeliveryProfile.create_type_profile(@doc_type, MailDeliveryClass.device, @prac, [:cc, :generating])
+		@dp = DeliveryProfile.create_type_profile(@doc_type, MailDeliveryClass.device.summary, @prac, [:cc, :generating])
 		@dp.save
 		@data['cc1'] = @prac.full_name
 		@data['phy-1'] = @prac.full_name
 		@dm.process_job(@data)
 		drs = DeliveryRequest.all
-		expect(drs.count).to eql 1
+		expect(drs.count).to eql 2  #includes ChartArchive
 	end
 
 	it 'should not create a new delivery request when not wanted' do
 
-		@dp = DeliveryProfile.create_type_profile(@doc_type, NoDeliveryClass.default_device, @prac, [:cc, :generating])
+		@dp = DeliveryProfile.create_type_profile(@doc_type, NoDeliveryClass.default_device.summary, @prac, [:cc, :generating])
 		@dp.save
 		@data['cc1'] = @prac.full_name
 		@dm.process_job(@data)
 		drs = DeliveryRequest.all
-		expect(drs.count).to eql 0
+		expect(drs.count).to eql 1    #includes ChartArchive
 	end
 
 
