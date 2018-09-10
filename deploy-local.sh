@@ -10,9 +10,11 @@ docker push dhf0820/ids-image-manager:latest
 
 docker tag dhf0820/delivery-manager:latest  dhf0820/delivery-manager:$SHA
 docker tag dhf0820/ids-extractor:latest  dhf0820/ids-extractor:$SHA
+docker tag dhf0820/ids-image-manager:latest  dhf0820/ids-image-manager:$SHA
 
 docker push dhf0820/delivery-manager:$SHA
 docker push dhf0820/ids-extractor:$SHA
+docker push dhf0820/ids-image-manager:$SHA
 
 kubectl apply -f k8s-local
 kubectl set image deployments/delivery-manager delivery-manager=dhf0820/delivery-manager:$SHA
