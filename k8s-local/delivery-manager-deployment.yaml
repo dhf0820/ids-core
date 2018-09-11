@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: delivery-manager
-        image: dhf0820/delivery-manager
+        image: dhf0820/delivery-manager:latest
         env:
         - name: SERVICE
           value: 'delivery-manager'

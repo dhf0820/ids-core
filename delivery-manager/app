@@ -22,13 +22,12 @@ require '../sys_models/ids_error'
 require '../sys_lib/vs_log'
 #require './lib/dispatch_queue.rb'
 #require './lib/deliver_queue.rb'
-require '../sys_lib/dispatch_failure.rb'
 require "../sys_sys_lib/work_queue.rb"
 #require "../lib/in_queue"
 
 require './lib/version'
 require './models/delivery_manager'
-
+require './lib/dispatch_failure.rb'
 
 
 STDERR.puts "Starting version #{VERSION} Dispatcher"
