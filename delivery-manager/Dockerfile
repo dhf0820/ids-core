@@ -29,11 +29,6 @@ COPY sys_lib/ sys_lib
 COPY ./sys_models/ /app/sys_models/
 RUN mkdir $APP_HOME
 
-# WORKDIR /app
-# RUN echo pwd
-# COPY ./sys_lib ./sys_lib/
-# COPY ./sys_models /app/sys_models/
-
 WORKDIR $APP_HOME
 
 COPY delivery-manager/Gemfile* ./
@@ -41,8 +36,4 @@ RUN bundle install
 
 COPY delivery-manager/. .
 
-
-
-#CMD bundle exec rackup -p 4567
-#CMD ["bundle","exec", "rackup", "-o", "0.0.0.0", "-p", "4567"]
 CMD  ./app

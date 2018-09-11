@@ -6,7 +6,7 @@
 #module IDSReader
   class Descriptor  
     def initialize(document = nil)
-      @config = $configuration
+      @config = Config.active
       @document = document
       @current_row = nil
       @current_column = nil

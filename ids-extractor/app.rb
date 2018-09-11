@@ -5,37 +5,38 @@ require 'mongoid'
 require 'bunny'
 require 'yaml'
 
-require_relative './lib/mongo_connection'
-require_relative './models/config'
-require_relative './models/data_dictionary'
-require_relative './models/data_element'
-require_relative './models/data_elements'
-require_relative './models/data_field'
-require_relative './models/descriptor'
-require_relative './models/document'
-require_relative './models/document_def'
-require_relative './models/environment'
-require_relative './models/exceptions'
-require_relative './models/inbound_queue'
-require_relative './models/page'
-require_relative './models/processor'
-require_relative './models/queue_processor'
-require_relative './models/recognizer'
-require_relative './models/recognizers'
-require_relative './models/report'
-require_relative './models/next_queue'
-require_relative './models/unknown_queue'
+require '../sys_lib/mongo_connection'
+require '../sys_lib/work_queue'
+require '../sys_lib/vs_log'
+require '../sys_models/environment'
+
+require './models/config'
+require './models/data_dictionary'
+require './models/data_element'
+require './models/data_elements'
+require './models/data_field'
+require './models/descriptor'
+require './models/document'
+require './models/document_def'
+require './models/exceptions'
+require './models/page'
+require './models/processor'
+require './models/queue_processor'
+require './models/recognizer'
+require './models/recognizers'
+require './models/report'
+#require './models/unknown_queue'
 
 
-require_relative './lib/ids-reader'
-require_relative './lib/pdf2_text'
-require_relative './lib/string_ext'
-require_relative './lib/vs_log'
+require './lib/ids-reader'
+require './lib/pdf2_text'
+require './lib/string_ext'
+
 
 
 #puts "in Reader executable "
 
-require_relative './lib/cli'
+require './lib/cli'
 
 #$path = File.expand_path(File.dirname(__FILE__))
 #$service = File.basename($0)

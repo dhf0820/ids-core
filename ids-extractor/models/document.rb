@@ -10,7 +10,7 @@ require_relative '../lib/ids-reader'
     attr_accessor :current_page, :current_line, :current_first_line
     
     def initialize(options ={})
-      @config = $configuration
+      @config = Config.active
       #@config = config
 #      mode = @config.runtime_mode
 

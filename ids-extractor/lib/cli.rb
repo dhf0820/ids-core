@@ -136,7 +136,7 @@ require_relative './string_ext'
 
 
 
-			$configuration = Config.new()
+			Config.new()
 
 			$reader = Reader.new()
 
