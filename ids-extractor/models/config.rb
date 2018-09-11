@@ -66,7 +66,7 @@ require './models/recognizers'
       end
       amqp_connection = Bunny.new(rabbit)
       @rabbit_connection = amqp_connection
-      #STDERR.puts "AMQP Connection: #{amqp_connection.inspect}"
+      STDERR.puts "AMQP Connection: #{amqp_connection.inspect}"
       @rabbit_name = rabbit.split('/')[3]
       amqp_connection.start
 

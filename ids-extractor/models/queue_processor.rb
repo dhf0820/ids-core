@@ -8,7 +8,7 @@ require 'json'
 #module IDSReader
   class QueueProcessor
     def initialize(reader)
-			@config = Config.current
+			@config = Config.active
 			@reader = reader
 
 			@inbound_queue =  @config.in_queue
@@ -16,7 +16,10 @@ require 'json'
 
 
 			@next_queue = @config.out_queue
-	    @working_path = './tmp'
+      @working_path = './tmp'
+      
+      $log.debug "   QueueProcessor starting   "
+
 			#@document_processor = reader.processor
      #  @extract = extract
      #  @mode = @config.mode
