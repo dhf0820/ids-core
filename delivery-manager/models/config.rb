@@ -45,6 +45,7 @@ require './lib/version'
 
 			$log = VsLog.new()
 
+      $log.debug "in_queue_name: #{in_queue_name}"
 			@in_queue =  WorkQueue.new( in_queue_name)
 			@out_queue = WorkQueue.new( out_queue_name)
       #@pending_queue = WorkQueue.new(unknown_queue_name)

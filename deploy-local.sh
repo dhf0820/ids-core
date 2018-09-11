@@ -17,6 +17,6 @@ docker push dhf0820/delivery-manager:$SHA
 #docker push dhf0820/ids-image-manager:$SHA
 
 kubectl apply -f k8s-local/delivery-manager-deployment.yaml
-#kubectl set deploymentsl/delivery-manager image-manager=dhf0820/image-manager:$SHA
+kubectl set image deployments/delivery-manager delivery-manager=dhf0820/delivery-manager:$SHA
 
 #kubectl set image deployments/demo-extractor demo-extractor=dhf0820/ids-extractor:$SHA
