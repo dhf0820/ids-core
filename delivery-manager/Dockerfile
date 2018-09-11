@@ -5,23 +5,35 @@ RUN apk update \
     && apk upgrade \
     && apk add build-base libffi-dev
 
-ENV LANG C.UTF-8
-ENV APP_BASE /app
-RUN echo $APP_BASE
-ENV APP_HOME $APP_BASE/delivery_manager
-RUN echo $APP_HOME
 
 ENV APP_NAME='DeliveryManager'
+ENV LANG C.UTF-8
+ENV APP_BASE /app
+ENV APP_HOME $APP_BASE/delivery_manager
+
 RUN mkdir $APP_BASE
-RUN mkdir $APP_BASE/sys_models
-RUN mkdir $APP_BASE/sys_lib
+WORKDIR $APP_BASE
+RUN echo "PWD: $PWD"
+
+
+#RUN mkdir /app/sys_models
+
+
+RUN echo "APP_HOME: $APP_HOME"
+RUN echo "APP_BASE: $APP_BASE"
+
+WORKDIR $APP_BASE
+RUN mkdir sys_lib
+RUN mkdir sys_models
+RUN ls /app 
+RUN pwd
+COPY sys_lib sys_lib
 RUN mkdir $APP_HOME
 
-WORKDIR $APP_BASE
-
-WORKDIR $APP_BASE
-COPY ./sys_lib $APP_BASE/sys_lib
-COPY ./sys_models $APP_BASE/sys_models/
+# WORKDIR /app
+# RUN echo pwd
+# COPY ./sys_lib ./sys_lib/
+# COPY ./sys_models /app/sys_models/
 WORKDIR $APP_HOME
 
 COPY Gemfile* ./
