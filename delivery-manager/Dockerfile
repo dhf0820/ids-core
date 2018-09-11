@@ -24,15 +24,16 @@ RUN echo "APP_BASE: $APP_BASE"
 
 RUN mkdir sys_libs
 RUN mkdir sys_models
-RUN ls /app 
-RUN pwd
-COPY sys_lib sys_libs
+
+COPY sys_lib/ sys_lib
+COPY ./sys_models/ /app/sys_models/
 RUN mkdir $APP_HOME
 
 # WORKDIR /app
 # RUN echo pwd
 # COPY ./sys_lib ./sys_lib/
 # COPY ./sys_models /app/sys_models/
+
 WORKDIR $APP_HOME
 
 COPY delivery-manager/Gemfile* ./
