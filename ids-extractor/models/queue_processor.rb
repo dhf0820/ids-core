@@ -207,7 +207,7 @@ require 'json'
 # leave as text so support can see the actual document
           end
 #TODO Need to actually save the pdf here if not text Currently only one document in a pdf/ps "
-          data = {}
+          data = HashWithIndifferentAccess.new  
           data['job_id'] = @job_id
           data['source'] = @source
           data['received_date'] = @received_date

@@ -1,6 +1,6 @@
 #module IDSReader
   class DataElements
-    @@elements = {}
+    @@elements = HashWithIndifferentAccess.new 
     def initialize
       elements = DataDictionary.all
       elements.each do |d|

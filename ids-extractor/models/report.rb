@@ -135,8 +135,8 @@ require 'builder'
     end
 
     def to_json
-      hash = {}
-      field_hash = {}
+      hash = HashWithIndifferentAccess.new 
+      field_hash = HashWithIndifferentAccess.new 
       data.each do |field, value|
         unless value.blank?
           field_hash[field] = value

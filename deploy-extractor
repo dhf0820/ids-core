@@ -4,7 +4,7 @@ docker build -t dhf0820/ids-extractor:latest -f ./ids-extractor/Dockerfile .
 
 docker push dhf0820/ids-extractor:latest
 
-docker tag dhf0820ids-extractor:latest  dhf0820/ids-extractor:$SHA
+docker tag  dhf0820/ids-extractor:latest  dhf0820/ids-extractor:$SHA
 
 docker push dhf0820/ids-extractor:$SHA
 

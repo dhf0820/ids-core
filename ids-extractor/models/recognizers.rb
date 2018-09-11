@@ -1,6 +1,6 @@
 class Recognizers
 
-		@@recognizers = {}
+		@@recognizers = HashWithIndifferentAccess.new 
 		def initialize
 			Recognizers.load_all
 		end
@@ -89,6 +89,6 @@ class Recognizers
 
 # Remove non master tagged dataelements
 		def self.clear
-			@@recognizers = {}
+			@@recognizers = HashWithIndifferentAccess.new 
 		end
 	end

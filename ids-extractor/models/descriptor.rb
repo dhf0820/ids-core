@@ -10,7 +10,7 @@
       @document = document
       @current_row = nil
       @current_column = nil
-      @data = {}
+      @data = HashWithIndifferentAccess.new 
     end
     
     def document(value)

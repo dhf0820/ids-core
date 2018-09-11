@@ -47,8 +47,7 @@ require './models/recognizers'
 			@in_queue =  WorkQueue.new( in_queue_name)
 			@out_queue = WorkQueue.new( out_queue_name)
       #@unknown_queue = WorkQueue.new(unknown_queue_name)
-      # $next_queue = NextQueue.new($amqp_connection, next_queue)
-			# add(:next_queue, $next_queue)
+
 
 
 			DataElements.new
