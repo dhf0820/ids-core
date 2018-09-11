@@ -22,12 +22,11 @@ RUN echo "PWD: $PWD"
 RUN echo "APP_HOME: $APP_HOME"
 RUN echo "APP_BASE: $APP_BASE"
 
-WORKDIR $APP_BASE
-RUN mkdir sys_lib
+RUN mkdir sys_libs
 RUN mkdir sys_models
 RUN ls /app 
 RUN pwd
-COPY sys_lib sys_lib
+COPY sys_lib sys_libs
 RUN mkdir $APP_HOME
 
 # WORKDIR /app
@@ -36,10 +35,10 @@ RUN mkdir $APP_HOME
 # COPY ./sys_models /app/sys_models/
 WORKDIR $APP_HOME
 
-COPY Gemfile* ./
+COPY delivery-manager/Gemfile* ./
 RUN bundle install
 
-COPY . .
+COPY delivery-manager/. .
 
 
 
