@@ -66,10 +66,10 @@ class ImageManager
 		# end
 
     begin
-      puts "@in_queue class = #{@in_queue.class}"
+      puts "@in_queue class = #{@in_queue.queue.class}"
 			$log.info "\n           Starting ImageManager\n"
-			$log.info("[x]  ImageManager version #{VERSION} waiting for job on #{@archive_queue.queue.name}")
-			#puts "[x]  Waiting for job on #{@archive_queue.queue.name}"
+			$log.info("[x]  ImageManager version #{VERSION} waiting for job on #{@in_queue.queue.name}")
+			#puts "[x]  Waiting for job on #{@in_queue.queue.name}"
 			@in_queue.queue.subscribe(:manual_ack => true,:block => true) do |delivery_info, properties, body|
         $qd =  HashWithIndifferentAccess.new(JSON.parse(body))
         #@qd = JSON.parse(body)
@@ -89,8 +89,8 @@ class ImageManager
 					$log.warn "\nJob: #{}"
 				elsif qd == 'Ok'
 					$log.info "\nImageManager job #{@qd['job_id']} took #{(Time.now - start_time).in_milliseconds}ms\n"
-					@archive_queue.ack(delivery_info.delivery_tag)
-					$log.debug("[x]  ImageManager version #{VERSION} waiting for job on #{@archive_queue.queue.name}")
+					@in_queue.ack(delivery_info.delivery_tag)
+					$log.debug("[x]  ImageManager version #{VERSION} waiting for job on #{@in_queue.queue.name}")
 				end
 
 			end
