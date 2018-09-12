@@ -29,7 +29,7 @@ require '../sys_lib/work_queue'
 
 require './models/unknown_document.rb'
 require './models/failed_document.rb'
-require './models/chart_archive_delivery'
+require '../sys_models/chart_archive_delivery'
 
 require './lib/image_manager'
 require './lib/save_failure.rb'
