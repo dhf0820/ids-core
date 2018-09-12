@@ -43,4 +43,5 @@ require './lib/save_failure.rb'
 #extractor = Extractor::Extractor.new
 Config.new
 img_manager = ImageManager.new
+puts "ImageManager: #{image_manager.inspect}"
 img_manager.execute

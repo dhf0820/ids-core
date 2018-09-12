@@ -53,7 +53,8 @@ class ImageManager
     puts "ImageManager initialize elaposed time: #{(Time.now - start_time) * 1000.0}ms\n\n"
 	end
 
-	def execute
+  def execute
+    puts "IN image_managerExecute"
 		process_queue
 	end
 
@@ -96,13 +97,13 @@ class ImageManager
       @in_queue.close_channel
       @out_queue.close_channel
       #@err_queue.close_channel
-      @connection.close
+    
       exit(0)
     rescue Exception => ex
       @in_queue.close_channel
       @out_queue.close_channel
       #@err_queue.close_channel
-			@connection.close
+
       $log.fatal "   ProcessQueue exception #{ex.inspect}"
       exit(0)
 		end
