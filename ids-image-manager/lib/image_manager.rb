@@ -45,6 +45,10 @@ class ImageManager
     @cad = ChartArchiveClass.default_device
     #puts "   ChartArchiveDelivery elapsed time: #{Time.now - start_time}ms"
 
+    @in_queue = @config.in_queue
+    @out_queue = @config.out_queue
+    @err_queue = @config.err_queue
+    @connection = @config.amqp_connection
     puts "ImageManager initialize elaposed time: #{(Time.now - start_time) * 1000.0}ms\n\n"
 	end
 
