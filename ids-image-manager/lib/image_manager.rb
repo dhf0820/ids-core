@@ -71,6 +71,7 @@ class ImageManager
 			$log.info("[x]  ImageManager version #{VERSION} waiting for job on queue [#{@in_queue.queue.name}] in #{@config.amqp_name}")
 			#puts "[x]  Waiting for job on #{@in_queue.queue.name}"
 			@in_queue.queue.subscribe(:manual_ack => true,:block => true) do |delivery_info, properties, body|
+        puts " Received Job"
         $qd =  HashWithIndifferentAccess.new(JSON.parse(body))
         #@qd = JSON.parse(body)
 				$log.debug( "   Image_type: #{@qd['image_type']}")
