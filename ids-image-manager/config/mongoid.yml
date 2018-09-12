@@ -165,7 +165,7 @@ atlas_dev:
   options:
     raise_not_found_error: false
 
-k8d_local:
+k8s_local:
   clients:
     default:
       uri: <%= ENV['IDS_ATLAS_DEV_URI'] %>

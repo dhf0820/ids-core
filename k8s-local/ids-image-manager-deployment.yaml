@@ -24,7 +24,7 @@ spec:
         - name: SERVICE
           value: 'image-manager'
         - name: CUSTOMER
-          value: 'demo'
+          value: 'cutter'
         - name: IDS_ATLAS_DEV_URI
           valueFrom:
             secretKeyRef:
