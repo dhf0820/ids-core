@@ -186,10 +186,10 @@ require 'json'
 
           @out_queue.publish(rep.data, @image_to_save)
           $log.debug "\n\n stored in archive"
-
         end
+        $log.debug "done with found reports"
       end
-
+$log.debug "start handling the unknown reports"
       if unknowns.count > 0
         $log.warn "   processing #{unknowns.count} unknown reports"
         unknowns.each do |unk|
