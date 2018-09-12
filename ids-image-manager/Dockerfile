@@ -28,7 +28,7 @@ RUN mkdir sys_models
 COPY sys_lib/ sys_lib
 COPY ./sys_models/ /app/sys_models/
 RUN mkdir $APP_HOME
-WORKDIR $APP_HOME
+WORKDIR $APP_BASE
 
 #COPY ./Gemfile ./
 COPY ids-image-manager/Gemfile* ./
