@@ -12,7 +12,6 @@ class FailedDocument
 	field   :received_date, type: DateTime
 	field   :document_type, type: String
 	field   :live_date,     type: DateTime
-	field   :live_date,     type: String
 	field   :status,        type: String
 	field   :failed_reason, type: String
 	field   :enc_image,     type: BSON::Binary
