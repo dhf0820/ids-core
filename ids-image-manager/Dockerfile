@@ -11,7 +11,7 @@ ENV APP_NAME='ids-image-manager'
 
 ENV APP_BASE /app
 ENV APP_HOME $APP_BASE/
-ENV APP_HOME $APP_BASE/ids-image_manager
+ENV APP_HOME $APP_BASE/ids-image-manager
 
 RUN mkdir $APP_BASE
 WORKDIR $APP_BASE
@@ -35,7 +35,7 @@ COPY ids-image-manager/Gemfile* ./
 RUN bundle install
 
 COPY ids-image-manager/. ./
-
+RUN pwd
 CMD  ids-image-manager/app
 
 
