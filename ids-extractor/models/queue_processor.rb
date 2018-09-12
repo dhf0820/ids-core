@@ -148,7 +148,9 @@ require 'json'
       $log.warn "   found #{unknowns.count} unknown reports"
       $log.debug "   Found #{reports.count} valid reports"
       if(reports.count > 0)
+        rep_num = 0
         reports.each do |rep|
+          $log.debug "Processing report #{rep_num} - #{@data_type}"
           # pdf/postscript file must be one report per file. Can not split 
           if(@data_type == :pdf)
             $log.debug"   Queue #{rep.report_type.class.name} as PDF to Storage process"
@@ -189,6 +191,7 @@ require 'json'
         end
         $log.debug "done with found reports"
       end
+
 $log.debug "start handling the unknown reports"
       if unknowns.count > 0
         $log.warn "   processing #{unknowns.count} unknown reports"
