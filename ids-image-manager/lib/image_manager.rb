@@ -63,7 +63,7 @@ class ImageManager
 			$log.info "\n           Starting ImageManager\n"
 			$log.info("[x]  ImageManager version #{VERSION} waiting for job on #{@archive_queue.queue.name}")
 			#puts "[x]  Waiting for job on #{@archive_queue.queue.name}"
-			@archive_queue.queue.subscribe(:manual_ack => true,:block => true) do |delivery_info, properties, body|
+			@in_queue.queue.subscribe(:manual_ack => true,:block => true) do |delivery_info, properties, body|
         $qd =  HashWithIndifferentAccess.new(JSON.parse(body))
         #@qd = JSON.parse(body)
 				$log.debug( "   Image_type: #{@qd['image_type']}")
@@ -88,11 +88,15 @@ class ImageManager
 
 			end
 		rescue Interrupt => ex
-			@archive_queue.ch.close
+      @in_queue.close_channel
+      @out_queue.close_channel
+      @err_queue.close_channel
       @connection.close
       exit(0)
     rescue Exception => ex
-      @archive_queue.ch.close
+      @in_queue.close_channel
+      @out_queue.close_channel
+      @err_queue.close_channel
 			@connection.close
       $log.fatal "   ProcessQueue exception #{ex.inspect}"
       exit(0)
