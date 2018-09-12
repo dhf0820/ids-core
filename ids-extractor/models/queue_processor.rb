@@ -15,7 +15,7 @@ require 'json'
 			@queue = @inbound_queue.queue
 
 
-			@next_queue = @config.out_queue
+			@out_queue = @config.out_queue
       @working_path = './tmp'
       
       $log.debug "   QueueProcessor starting   "
@@ -182,10 +182,10 @@ require 'json'
           rep.data['source'] = @source
           rep.data['received_date'] = @received_date
           $log.debug "  ADDING received date: #{rep.data['received_date']}"
-          #STDERR.puts "Storing in Archive\n\n"
+          @log.debug "Storing in Archive\n\n"
 
-          @next_queue.publish(rep.data, @image_to_save)
-          #STDERR.puts "\n\n stored in archive"
+          @out_queue.publish(rep.data, @image_to_save)
+          @log.debug "\n\n stored in archive"
 
         end
       end
@@ -213,7 +213,7 @@ require 'json'
           data['received_date'] = @received_date
           data['status'] = 'unknown'
     begin
-          @next_queue.publish(data, image)
+        @out_queue@.publish(data, image)
     rescue => ex
 		$log.debug "Publish failed : #{ex.message}"
     end

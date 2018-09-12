@@ -45,7 +45,8 @@ require './models/recognizers'
 			$log = VsLog.new()
 
 			@in_queue =  WorkQueue.new( in_queue_name)
-			@out_queue = WorkQueue.new( out_queue_name)
+      @out_queue = WorkQueue.new( out_queue_name)
+      $log.debug "Out_queue: #{@out_queue}"
       #@unknown_queue = WorkQueue.new(unknown_queue_name)
 
 
