@@ -34,7 +34,7 @@ WORKDIR $APP_HOME
 COPY ids-image-manager/Gemfile* ./
 RUN bundle install
 
-COPY . .
+COPY ids-image-manager/. ./
 
 CMD  ids-image-manager/app
 
