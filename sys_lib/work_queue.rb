@@ -17,7 +17,7 @@ class WorkQueue
 
   def publish(data)
 	  unless data['image'].nil?
-			data[image] = Base64.encode64(data['image'])
+			data[:image] = Base64.encode64(data['image'])
 	  end
 	  #puts "   Storing #{data}"
 

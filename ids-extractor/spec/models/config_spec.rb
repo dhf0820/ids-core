@@ -39,7 +39,7 @@ describe Config do
 	  end
 
 	  it "should initialize queues" do
-		#binding.pry
+	
 	  end
 
     it 'should have more document_defs than used' do

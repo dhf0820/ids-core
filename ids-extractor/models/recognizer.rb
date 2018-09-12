@@ -21,12 +21,12 @@ class Recognizer
 
 	def Recognizer.process_file(text_file)
 		#rec = recognizer.new
-		#binding.pry
+
 		"class method"
 	end
 
 	def process_file(text_file)
-		#binding.pry
+		#
 		puts "File: #{text_file}"
 		rec = recognizer.new
 

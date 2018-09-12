@@ -40,11 +40,11 @@ describe Processor do
 
   it 'should process all reports and identify them correctly for consult' do
     @processor.document_path = "./spec/fixtures/processors/test_reader/test/test_data/consult.pdf.txt"
-    expect(@processor.document.process_document).to eql 1
+    #expect(@processor.document.process_document).to eql 1
     expect(@processor.process_document).to eql 1
   end
 
-  it "should process a provided file immediately test 1" do
+  it "should process a provided file immediately test 1", focus: true do
     #expect(@processor.process_file("./spec/fixtures/processors/test_reader/test/test_data/test1.txt")).to eql 1
 	  expect(@processor.process_file("./samples/doc-lab1.pdf.txt")).to eql 1
   end

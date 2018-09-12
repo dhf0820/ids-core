@@ -90,7 +90,7 @@ require_relative '../lib/ids-reader'
         file = nil
         return save_to
       # rescue => e
-      #   binding.pry
+      #   
       #   file.close unless file.nil?
       #   return nil
       end
@@ -260,7 +260,7 @@ require_relative '../lib/ids-reader'
       keys = Config.descriptor_keys
 
       keys.each do |key|
-      #  binding.pry
+      # 
         recognizer_class = Config.recognizer(key).recognizer
 
       # end
@@ -271,7 +271,7 @@ require_relative '../lib/ids-reader'
           r.report_type = recognizer_class.new()
           r.report_type.document = self
           r.report_type.add_data_elements
-      #    binding.pry
+      
           begin
             r.extract_data
           rescue NoMethodError => e

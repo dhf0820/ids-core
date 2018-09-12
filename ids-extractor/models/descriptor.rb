@@ -179,7 +179,7 @@
         $log.warn "Invalid DataName = [#{data_name}]"
         return nil
       end
-   #   binding.pry
+   #   
       if prompt(prompt_string, options)
         if options[:regex]
           return extract_regex(data_name, options[:regex], options)
@@ -291,7 +291,7 @@
     end
 
     def extract_regex(data_name, regexp, options = {})
-      #binding.pry
+      #
 #      data_name = data_name.to_sym
       if data_element(data_name).nil?
 #      unless VALID_DATA_ELEMENTS.has_key?(data_name)

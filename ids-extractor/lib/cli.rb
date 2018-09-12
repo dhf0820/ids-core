@@ -106,7 +106,6 @@ require_relative './string_ext'
 			# 		end
 			#
 			# 		# if mandatory_options && mandatory_options.find { |option| options[option.to_sym].nil? }
-			# 		# 	#binding.pry
 			# 		# 	puts opts; exit
 			# 		# end
 			#

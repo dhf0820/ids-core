@@ -68,7 +68,7 @@ describe Report do
 
     it 'should return the value of a field by name- 33' do
       rep = @document.report(0)
-#binding.pry
+
       expect(rep.field(:mrn)).to eql "00714776"
       expect(rep.field(:pat_name)).to eql 'FRENCH, DONALD'
     end

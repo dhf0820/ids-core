@@ -34,7 +34,7 @@ require 'ids-reader'
 # config.capture_log_messages
 #end
 RSpec.configure do |config|
-   #config.filter_run :focus => true
+   config.filter_run :focus => true
    config.expect_with :rspec
 
    config.before(:suite) do

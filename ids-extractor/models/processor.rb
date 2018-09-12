@@ -117,7 +117,6 @@ require 'active_support/core_ext'
 # === Descriptors
 # Each possible report contained in a raw file is defined by a ruby file that
 #     def descriptors
-#       binding.pry
 #       return Config.descriptors unless Config.descriptors.nil?
 #       begin
 #          descriptor_code = []

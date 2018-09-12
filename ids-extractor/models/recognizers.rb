@@ -6,7 +6,7 @@ class Recognizers
 		end
 
 		# def self.reload
-		# 	binding.pry
+		# 	
 		# 	Recognizers.clear
 		# 	recognizers = DocumentDef.all
 		# 	recognizers.each do |d|

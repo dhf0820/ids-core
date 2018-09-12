@@ -120,6 +120,7 @@ require 'json'
     end
 
     def process_document(image)
+
       @image_to_save = image
 
       if is_pdf(@image_to_save[0,10])
@@ -148,8 +149,9 @@ require 'json'
       $log.warn "   found #{unknowns.count} unknown reports"
       $log.debug "   Found #{reports.count} valid reports"
       if(reports.count > 0)
-        rep_num = 0
+        rep_num = 1
         reports.each do |rep|
+          
           $log.debug "Processing report #{rep_num} - #{@data_type}"
           # pdf/postscript file must be one report per file. Can not split 
           if(@data_type == :pdf)
@@ -185,9 +187,10 @@ require 'json'
           rep.data['received_date'] = @received_date
           $log.debug "  ADDING received date: #{rep.data['received_date']}"
           $log.debug "Storing in Archive\n\n"
-
-          @out_queue.publish(rep.data, @image_to_save)
-          $log.debug "\n\n stored in archive"
+          out_data = rep.data
+          out_data[:image] = @image_to_save
+          @out_queue.publish(out_data) #  rep.data, @image_to_save)
+          $log.debug " stored in archive"
         end
         $log.debug "done with found reports"
       end

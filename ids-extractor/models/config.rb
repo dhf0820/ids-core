@@ -233,7 +233,6 @@ require './models/recognizers'
 		end
 		#
 		# def self.current(key)
-		# 	binding.pry
 		# 	@proc[key]
 		# end
 

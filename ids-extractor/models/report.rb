@@ -83,7 +83,7 @@ require 'builder'
     end
     
     def extract_data
-     # binding.pry
+     # 
       @report_type.data
     end
   
@@ -155,7 +155,7 @@ require 'builder'
 
 
     def dfile_data
-      #binding.pry
+      #
       dfile = StringIO.new 
       dfile.puts "---"
       fields.each do |field, value| 

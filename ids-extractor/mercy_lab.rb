@@ -57,7 +57,7 @@
   
       def extract_cc
       	# r, c = find_prompt "Doc #:"
-        # binding.pry
+        # 
       	# r, c = find_prompt "cc:", :row => r + 1
       end
   end
