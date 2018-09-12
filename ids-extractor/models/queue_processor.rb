@@ -182,10 +182,10 @@ require 'json'
           rep.data['source'] = @source
           rep.data['received_date'] = @received_date
           $log.debug "  ADDING received date: #{rep.data['received_date']}"
-          @log.debug "Storing in Archive\n\n"
+          $log.debug "Storing in Archive\n\n"
 
           @out_queue.publish(rep.data, @image_to_save)
-          @log.debug "\n\n stored in archive"
+          $log.debug "\n\n stored in archive"
 
         end
       end
