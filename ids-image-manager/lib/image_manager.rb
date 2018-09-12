@@ -65,7 +65,8 @@ class ImageManager
 		# 	@connection.close
 		# end
 
-		begin
+    begin
+      puts "@in_queue class = #{@in_queue.class}"
 			$log.info "\n           Starting ImageManager\n"
 			$log.info("[x]  ImageManager version #{VERSION} waiting for job on #{@archive_queue.queue.name}")
 			#puts "[x]  Waiting for job on #{@archive_queue.queue.name}"
