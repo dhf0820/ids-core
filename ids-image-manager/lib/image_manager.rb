@@ -47,7 +47,7 @@ class ImageManager
 
     @in_queue = @config.in_queue
     @out_queue = @config.out_queue
-    @err_queue = @config.err_queue
+    #@err_queue = @config.err_queue
     @connection = @config.amqp_connection
     puts "@in_queue = #{@in_queue.inspect}"
     puts "ImageManager initialize elaposed time: #{(Time.now - start_time) * 1000.0}ms\n\n"
@@ -95,13 +95,13 @@ class ImageManager
 		rescue Interrupt => ex
       @in_queue.close_channel
       @out_queue.close_channel
-      @err_queue.close_channel
+      #@err_queue.close_channel
       @connection.close
       exit(0)
     rescue Exception => ex
       @in_queue.close_channel
       @out_queue.close_channel
-      @err_queue.close_channel
+      #@err_queue.close_channel
 			@connection.close
       $log.fatal "   ProcessQueue exception #{ex.inspect}"
       exit(0)
