@@ -49,6 +49,7 @@ class ImageManager
     @out_queue = @config.out_queue
     @err_queue = @config.err_queue
     @connection = @config.amqp_connection
+    puts "@in_queue = #{@in_queue.inspect}"
     puts "ImageManager initialize elaposed time: #{(Time.now - start_time) * 1000.0}ms\n\n"
 	end
 
