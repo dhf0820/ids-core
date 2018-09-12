@@ -68,7 +68,7 @@ class ImageManager
     begin
       puts "@in_queue class = #{@in_queue.queue.class}"
 			$log.info "\n           Starting ImageManager\n"
-			$log.info("[x]  ImageManager version #{VERSION} waiting for job on #{@in_queue.queue.name}")
+			$log.info("[x]  ImageManager version #{VERSION} waiting for job on queue [#{@in_queue.queue.name}] in #{@config.amqp_name}")
 			#puts "[x]  Waiting for job on #{@in_queue.queue.name}"
 			@in_queue.queue.subscribe(:manual_ack => true,:block => true) do |delivery_info, properties, body|
         $qd =  HashWithIndifferentAccess.new(JSON.parse(body))
@@ -90,7 +90,7 @@ class ImageManager
 				elsif qd == 'Ok'
 					$log.info "\nImageManager job #{@qd['job_id']} took #{(Time.now - start_time).in_milliseconds}ms\n"
 					@in_queue.ack(delivery_info.delivery_tag)
-					$log.debug("[x]  ImageManager version #{VERSION} waiting for job on #{@in_queue.queue.name}")
+					$log.debug("[x]  ImageManager version #{VERSION} waiting in #{@config.amqp_name} for job on #{@in_queue.queue.name}")
 				end
 
 			end
