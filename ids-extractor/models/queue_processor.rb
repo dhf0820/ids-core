@@ -213,9 +213,10 @@ require 'json'
           data['received_date'] = @received_date
           data['status'] = 'unknown'
     begin
-        @out_queue@.publish(data, image)
+      $log.debug "line 216 publish unknow to archive"
+      @out_queue.publish(data, image)
     rescue => ex
-		$log.debug "Publish failed : #{ex.message}"
+		  $log.debug "Publish failed : #{ex.message}"
     end
 
           #File.open('./unknown', 'w') { |file| file.write(image) }
