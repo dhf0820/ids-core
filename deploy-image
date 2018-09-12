@@ -1,0 +1,12 @@
+SHA=$(git rev-parse HEAD)
+
+docker build -t dhf0820/ids-image-manager:latest -f ./ids-image-manager/Dockerfile .
+
+docker push dhf0820/ids-image-manager:latest
+
+docker tag  dhf0820/ids-image-manager:latest  dhf0820/ids-image-manager:$SHA
+
+docker push dhf0820/ids-image-manager:$SHA
+
+kubectl apply -f k8s-local/ids-image-manager-deployment.yaml
+kubectl set image deployments/image-manager image-manager=dhf0820/ids-image-manager:$SHA

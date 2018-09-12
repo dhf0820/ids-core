@@ -9,16 +9,33 @@ ENV LANG C.UTF-8
 ENV APP_HOME /app
 ENV APP_NAME='ids-image-manager'
 
+ENV APP_BASE /app
+ENV APP_HOME $APP_BASE/
+ENV APP_HOME $APP_BASE/ids-image_manager
+
+RUN mkdir $APP_BASE
+WORKDIR $APP_BASE
+
+#RUN mkdir /app/sys_models
+
+
+RUN echo "APP_HOME: $APP_HOME"
+RUN echo "APP_BASE: $APP_BASE"
+
+RUN mkdir sys_libs
+RUN mkdir sys_models
+
+COPY sys_lib/ sys_lib
+COPY ./sys_models/ /app/sys_models/
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
-COPY Gemfile* ./
+#COPY ./Gemfile ./
+COPY ids-image-manager/Gemfile* ./
 RUN bundle install
 
 COPY . .
 
+CMD  ids-image-manager/app
 
 
-#CMD bundle exec rackup -p 4567
-#CMD ["bundle","exec", "rackup", "-o", "0.0.0.0", "-p", "4567"]
-CMD  ./app
