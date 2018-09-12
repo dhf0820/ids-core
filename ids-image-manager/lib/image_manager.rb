@@ -94,13 +94,17 @@ class ImageManager
 				end
 
 			end
-		rescue Interrupt => ex
+    rescue Interrupt => ex
+      puts "Interrupt: #{ex}"
+      $log.warn "Interrupt: #{ex}"
       @in_queue.close_channel
       @out_queue.close_channel
       #@err_queue.close_channel
     
       exit(0)
     rescue Exception => ex
+      puts "Exception: #{ex}"
+      $log.warn "Exception: #{ex}"
       @in_queue.close_channel
       @out_queue.close_channel
       #@err_queue.close_channel
