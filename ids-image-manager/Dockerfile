@@ -22,7 +22,7 @@ WORKDIR $APP_BASE
 RUN echo "APP_HOME: $APP_HOME"
 RUN echo "APP_BASE: $APP_BASE"
 
-RUN mkdir sys_libs
+RUN mkdir sys_lib
 RUN mkdir sys_models
 
 COPY sys_lib/ sys_lib
