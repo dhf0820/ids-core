@@ -5,7 +5,7 @@ require './lib/version'
 puts "ImageManager version #{VERSION} starting "
 require '../sys_lib/mongo_connection'
 
-require 'active_record'
+#require 'active_record'
 require 'mongoid'
 #require 'rest-client'
 require 'json'

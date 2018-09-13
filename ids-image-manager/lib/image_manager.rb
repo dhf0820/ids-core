@@ -69,10 +69,12 @@ class ImageManager
       puts "@in_queue class = #{@in_queue.queue.class}"
 			$log.info "\n           Starting ImageManager\n"
 			$log.info("[x]  ImageManager version #{VERSION} waiting for job on queue [#{@in_queue.queue.name}] in #{@config.amqp_name}")
-			#puts "[x]  Waiting for job on #{@in_queue.queue.name}"
+      #puts "[x]  Waiting for job on #{@in_queue.queue.name}"
+
 			@in_queue.queue.subscribe(:manual_ack => true,:block => true) do |delivery_info, properties, body|
+        binding.pry
         puts " Received Job"
-        $qd =  HashWithIndifferentAccess.new(JSON.parse(body))
+        @qd =  HashWithIndifferentAccess.new(JSON.parse(body))
         #@qd = JSON.parse(body)
 				$log.debug( "   Image_type: #{@qd['image_type']}")
 				$log.info(  "   Report_type: [#{@qd['report_type']}]")
@@ -88,7 +90,7 @@ class ImageManager
 				# end
 				if qd == 'Restarted'
 					$log.warn "\nJob: #{}"
-				elsif qd == 'Ok'
+        else #if qd == 'Ok'
 					$log.info "\nImageManager job #{@qd['job_id']} took #{(Time.now - start_time).in_milliseconds}ms\n"
 					@in_queue.ack(delivery_info.delivery_tag)
 					$log.debug("[x]  ImageManager version #{VERSION} waiting in #{@config.amqp_name} for job on #{@in_queue.queue.name}")
@@ -121,31 +123,31 @@ class ImageManager
 			process_unknown(qd)
 		else
 			begin
-				#$log.debug "processing job"
+				$log.debug "processing job"
 				@current_image = Base64.decode64(qd['image'])
 				qd.delete('image')
 				pat = process_patient(qd)
-				#$log.debug "Processed Patient: #{pat.name}"
-				#@qd['patid'] = pat.id.to_s
+				$log.debug "Processed Patient: #{pat.name}"
+				@qd['patid'] = pat.id.to_s
 				qd['pat_remote'] = pat.remote_id
 				qd['pat_summary'] =  pat.summary
 				visit = process_visit(qd, pat)
-				#$log.debug "Process Visit : #{visit.id.to_s}"
-				#qd['visit_id'] = visit.id.to_s
+				$log.debug "Process Visit : #{visit.id.to_s}"
+				qd['visit_id'] = visit.id.to_s
 				qd['visit_summary'] = visit.summary
-				#$log.debug "Adding a document"
+				$log.debug "Adding a document"
 				qd = add_document(qd, @current_image, pat, visit)
 				return qd if qd == 'Restart'
         queue_to_chart_archive(qd)
 				queue_dispatch(qd)
-				#$log.info "Queued to Dispatch Patient: [#{pat.id.to_s}] - [#{pat.name}], ClinicalDocumentId: [#{qd['doc_id']}] [#{qd['type_info']['description']}]"
+				$log.info "Queued to Dispatch Patient: [#{pat.id.to_s}] - [#{pat.name}], ClinicalDocumentId: [#{qd['doc_id']}] [#{qd['type_info']['description']}]"
 			rescue SaveFailure => e
 				qd['ERROR']=  e.message
 				queue_failure(e.message)
 			end
-		end
+    end
+    binding.pry
 		qd
-	#	binding.pry
 
 	end
 
@@ -390,8 +392,9 @@ class ImageManager
     #binding.pry
   end
 
-	def queue_dispatch(qd)
-		@config.out_queue.publish(qd)
+  def queue_dispatch(qd)
+    binding.pry
+		@out_queue.publish(qd)
 	#	$log.debug "Queue the dispatch to determine delivery"
 	end
 
